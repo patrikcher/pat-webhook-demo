@@ -14,6 +14,13 @@ if($method == 'POST'){
 		case 'hi':
 			$speech = 'Hi, Nice to meet you';
 			$display = $speech;
+			
+			$response = new \stdClass();
+			$response->speech = $speech;
+			$response->displayText = $display;
+			$response->source = "webhook";
+			echo json_encode($response);
+			
 			break;
 			
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || (strpos($text, 'next') !== false)):
@@ -42,29 +49,50 @@ if($method == 'POST'){
 					break;
 			}
 			
+			$response = new \stdClass();
+			$response->speech = $speech;
+			$response->displayText = $display;
+			$response->source = "webhook";
+			echo json_encode($response);
+			
 			break;
 
 		case 'bye':
 			$speech = 'Bye, good night';
 			$display = $speech;
+			
+			$response = new \stdClass();
+			$response->speech = $speech;
+			$response->displayText = $display;
+			$response->source = "webhook";
+			echo json_encode($response);
+			
 			break;
 
 		case 'anything':
 			$speech = 'Yes, you can type anything here.';
 			$display = $speech;
+			
+			$response = new \stdClass();
+			$response->speech = $speech;
+			$response->displayText = $display;
+			$response->source = "webhook";
+			echo json_encode($response);
+			
 			break;
 		
 		default:
 			$speech = 'Sorry, I didnt get that. Please ask me something else.';
 			$display = $speech;
+			
+			$response = new \stdClass();
+			$response->speech = $speech;
+			$response->displayText = $display;
+			$response->source = "webhook";
+			echo json_encode($response);
+			
 			break;
 	}
-	
-	$response = new \stdClass();
-	$response->speech = $speech;
-	$response->displayText = $display;
-	$response->source = "webhook";
-	echo json_encode($response);
 }
 else
 {
