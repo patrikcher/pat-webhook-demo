@@ -65,7 +65,7 @@ if($method == 'POST'){
 	$response = new \stdClass();
 	$response->speech = $speech;
 	$response->displayText = $display;
-	$response->addSuggestions = $suggestions;
+	$response->suggestions = $suggestions;
 	$response->source = "webhook";
 	echo json_encode($response);
 }
