@@ -17,19 +17,19 @@ if($method == 'POST'){
 			
 		case 'book review':
 			$num = rand(1, 3);
-			$speech = '<speak>Here is a book review that may interest you.<break time="1s"/></speak>';
+			$speech = '<speak>Here is a book review that may interest you.<break time="1s"/>';
 			
 			switch ($num) {
 				case 1:
-					$speech = $speech . '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3">did not get your audio file</audio></speak>';
+					$speech = $speech . '<audio src="https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3">did not get your audio file</audio></speak>';
 					break;
 					
 				case 2:
-					$speech = $speech . '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3">did not get your audio file</audio></speak>';
+					$speech = $speech . '<audio src="https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3">did not get your audio file</audio></speak>';
 					break;
 					
 				case 3:
-					$speech = $speech . '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/ArivaalJeevitham_F2">did not get your audio file</audio></speak>';
+					$speech = $speech . '<audio src="https://pat-webhook-demo.herokuapp.com/rsc/ArivaalJeevitham_F2">did not get your audio file</audio></speak>';
 					break;
 				
 				default:
