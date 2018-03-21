@@ -16,7 +16,7 @@ if($method == 'POST'){
 			break;
 			
 		case 'book review':
-			$num = rand();
+			$num = rand(1, 3);
 			$speech = 'Random num is ' . $num;
 			
 			//switch ($num) {
