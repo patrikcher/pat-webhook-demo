@@ -16,7 +16,7 @@ if($method == 'POST'){
 			$display = $speech;
 			break;
 			
-		case 'book review':
+		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review'):
 			$num = rand(1, 3);
 			//$speech = 'Here is a book review that may interest you.';
 			
