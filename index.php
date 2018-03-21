@@ -12,19 +12,23 @@ if($method == 'POST'){
 
 	switch ($text) {
 		case 'hi':
-			$speech = "Hi, Nice to meet you";
+			$speech = 'Hi, Nice to meet you';
+			break;
+			
+		case 'book review':
+			$speech = '<speak><audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
 			break;
 
 		case 'bye':
-			$speech = "Bye, good night";
+			$speech = 'Bye, good night';
 			break;
 
 		case 'anything':
-			$speech = "Yes, you can type anything here.";
+			$speech = 'Yes, you can type anything here.';
 			break;
 		
 		default:
-			$speech = "Sorry, I didnt get that. Please ask me something else.";
+			$speech = 'Sorry, I didnt get that. Please ask me something else.';
 			break;
 	}
 
