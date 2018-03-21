@@ -17,26 +17,25 @@ if($method == 'POST'){
 			
 		case 'book review':
 			$num = rand(1, 3);
-			$speech = 'Random num is ' . $num;
+			//$speech = 'Random num is ' . $num;
 			
-			//switch ($num) {
-			//	case 1:
-			//		$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3">did not get your audio file</audio></speak>';
-			//		break;
+			switch ($num) {
+				case 1:
+					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3">did not get your audio file</audio></speak>';
+					break;
 					
-			//	case 2:
-			//		$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3">did not get your audio file</audio></speak>';
-			//		break;
+				case 2:
+					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3">did not get your audio file</audio></speak>';
+					break;
 					
-			//	case 3:
-			//		$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/ArivaalJeevitham_F2">did not get your audio file</audio></speak>';
-			//		break;
+				case 3:
+					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/ArivaalJeevitham_F2">did not get your audio file</audio></speak>';
+					break;
 				
-			//	default:
-			//		$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3">did not get your audio file</audio></speak>';
-			//		break;
-			//	}
-			//}
+				default:
+					$speech = 'Random num is ' . $num;
+					break;
+			}
 			
 			break;
 
