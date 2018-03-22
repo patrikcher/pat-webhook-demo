@@ -21,10 +21,10 @@ if($method == 'POST'){
 			break;
 			
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
-			$num = rand(1, count($bookReviewsJson));
+			$num = rand(0, count($bookReviewsJson)-1);
 			
-			$title = $bookReviewsJson[$num-1]['title'];
-			$filepath = $bookReviewsJson[$num-1]['filepath'];
+			$title = $bookReviewsJson[$num]['title'];
+			$filepath = $bookReviewsJson[$num]['filepath'];
 			
 			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio></speak>';
 			$display = 'Now reading book review for ' . $title . '. Another review?';			
