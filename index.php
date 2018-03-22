@@ -10,7 +10,8 @@ if($method == 'POST'){
 
 	$text = $json->result->parameters->text;
 	
-	$bookReviews = json_decode('http://pat-webhook-demo.herokuapp.com/data/bookreviews.json', true);
+	$bookReviews = file_get_contents('http://pat-webhook-demo.herokuapp.com/data/bookreviews.json');
+	$bookReviewsJson = json_decode($bookReviews, true);
 	
 
 	switch ($text) {
