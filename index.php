@@ -17,23 +17,26 @@ if($method == 'POST'){
 			
 			break;
 			
-		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
+		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(1, 3);
 			//$speech = 'Here is a book review that may interest you.';
 			
 			switch ($num) {
 				case 1:
-					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3"><desc>Black Panther: Who is Black Panter?</desc>did not get your audio file</audio></speak>';
+					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3">' . 
+							'<desc>Black Panther: Who is Black Panter?</desc>did not get your audio file</audio></speak>';
 					$display = 'Now reading book review for "Black Panther: Who is Black Panther?". Next review?';
 					break;
 					
 				case 2:
-					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3"><desc>From the Belly of the Cat</desc>did not get your audio file</audio></speak>';
+					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3">' .
+							'<desc>From the Belly of the Cat</desc>did not get your audio file</audio></speak>';
 					$display = 'Now reading book review for "From the Belly of the Cat". Next review?';
 					break;
 					
 				case 3:
-					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/ArivaalJeevitham_F2.mp3"><desc>Arivval Jeevitham</desc>did not get your audio file</audio></speak>';
+					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/ArivaalJeevitham_F2.mp3">' .
+							'<desc>Arivval Jeevitham</desc>did not get your audio file</audio></speak>';
 					$display = 'Now reading book review for "Arivval Jeevitham". Next review?';
 					break;
 				
