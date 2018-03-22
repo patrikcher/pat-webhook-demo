@@ -23,9 +23,9 @@ if($method == 'POST'){
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(1, 3);
 			
-			$item = bookReviewsJson['items'][$num-1];
-			$title = $item['title'];
-			$filepath = $item['filepath'];
+			//$item = bookReviewsJson['items'][$num-1];
+			$title = bookReviewsJson[$num-1]['title'];
+			$filepath = bookReviewsJson[$num-1]['filepath'];
 			
 			$speech = '<speak><audio src="' . $filepath . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio></speak>';
 					$display = 'Max is ' . count(bookReviewsJson['items']) . '. Now reading book review for ' . $title . '. Next review?';
