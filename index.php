@@ -25,7 +25,7 @@ if($method == 'POST'){
 			
 			$speech = '<speak><audio src="' . $bookReviewsJson[$num-1]['filepath']  . 
 							'"><desc>' . $bookReviewsJson[$num-1]['title'] . '</desc>I did not manage to get your book review.</audio></speak>';
-					$display = 'Max is ' . count(bookReviewsJson) . '. Now reading book review for ' . $bookReviewsJson[$num-1]['title'] . '. Next review?';
+					$display = 'Max is ' . count(bookReviewsJson['id']) . '. Now reading book review for ' . $bookReviewsJson[$num-1]['title'] . '. Next review?';
 			
 			break;
 
