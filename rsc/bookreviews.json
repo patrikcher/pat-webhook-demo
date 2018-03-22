@@ -1,7 +1,0 @@
-{"bookreviews":{
-	"items": [
-		{"title": "Black Panther: Who is Black Panther?", "filepath": "https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3"},
-		{"title": "From the Belly of the Cat", "filepath": "https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3"},
-		{"title": "Arivval Jeevitham", "filepath": "https://pat-webhook-demo.herokuapp.com/rsc/ArivaalJeevitham_F2.mp3"}
-	]
-}}
