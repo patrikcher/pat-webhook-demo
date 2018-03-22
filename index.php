@@ -24,13 +24,12 @@ if($method == 'POST'){
 			$num = rand(1, 3);
 			
 			//$item = bookReviewsJson['items'][$num-1];
-			$title = bookReviewsJson[$num-1]['title'];
-			$filepath = bookReviewsJson[$num-1]['filepath'];
+			$title = $bookReviewsJson[$num-1]['title'];
+			$filepath = $bookReviewsJson[$num-1]['filepath'];
 			
-			$speech = '<speak><audio src="' . $bookReviewsJson[$num-1]['filepath']  . 
-							'"><desc>' . $bookReviewsJson[$num-1]['title'] . '</desc>I did not manage to get your book review.</audio></speak>';
-			$display = 'Now reading book review for ' . $bookReviewsJson[$num-1]['title'] . '. URL is . ' . $bookReviewsJson[$num-1]['filepath'] . 
-							' Next review?';			
+			$speech = '<speak><audio src="' . filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio></speak>';
+			$display = 'Now reading book review for ' . $title . '. Next review?';			
+			
 			break;
 
 		case ($text == 'bye' || $text == 'no'):
