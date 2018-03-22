@@ -21,7 +21,7 @@ if($method == 'POST'){
 			break;
 			
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
-			$num = rand(1, 3);
+			$num = rand(1, count($bookReviewsJson));
 			
 			$title = $bookReviewsJson[$num-1]['title'];
 			$filepath = $bookReviewsJson[$num-1]['filepath'];
