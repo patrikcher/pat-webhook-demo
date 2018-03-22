@@ -23,7 +23,7 @@ if($method == 'POST'){
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(1, 3);
 			
-			$item = bookReviewsJson[$num-1];
+			$item = bookReviewsJson['items'][$num-1];
 			$title = $item['title'];
 			$filepath = $item['filepath'];
 			
