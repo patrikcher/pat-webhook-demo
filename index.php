@@ -21,11 +21,11 @@ if($method == 'POST'){
 			break;
 			
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
-			$num = rand(1, Objects.keys($bookReviewsJson).length);
+			$num = rand(1, 3);
 			
 			$speech = '<speak><audio src="' . $bookReviewsJson[$num-1]['filepath']  . 
 							'"><desc>' . $bookReviewsJson[$num-1]['title'] . '</desc>I did not manage to get your book review.</audio></speak>';
-					$display = 'Now reading book review for ' . $bookReviewsJson[$num-1]['title'] . '. Next review?';
+					$display = 'Max is ' . count(bookReviewsJson) . '. Now reading book review for ' . $bookReviewsJson[$num-1]['title'] . '. Next review?';
 			
 			break;
 
