@@ -17,7 +17,7 @@ if($method == 'POST'){
 			
 			break;
 			
-		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || $text == 'next' || $text == 'yes' || $text == 'sure'):
+		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(1, 3);
 			//$speech = 'Here is a book review that may interest you.';
 			
