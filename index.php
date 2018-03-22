@@ -32,7 +32,7 @@ if($method == 'POST'){
 					break;
 					
 				case 2:
-					$speech = '<speak><audio src="'https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3">' .
+					$speech = '<speak><audio src="https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3">' .
 							'<desc>From the Belly of the Cat</desc>I did not manage to get your book review.</audio></speak>';
 					$display = 'Now reading book review for ' . $bookReviewsJson[$num-1]['title'] . '. URL is . ' . $bookReviewsJson[$num-1]['filepath'] . 
 							' Next review?';
