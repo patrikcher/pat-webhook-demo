@@ -26,8 +26,8 @@ if($method == 'POST'){
 			$title = $bookReviewsJson[$num]['title'];
 			$filepath = $bookReviewsJson[$num]['filepath'];
 			
-			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio></speak>';
-			$display = 'Now reading book review for ' . $title . '. Another review?';			
+			$speech = '<speak><audio src="' . $filepath  . '">Would you like me to read you another review?<desc>' . $title . '</desc>I did not manage to get your book review.</audio></speak>';
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read you another review?';			
 			
 			break;
 
