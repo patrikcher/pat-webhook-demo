@@ -76,7 +76,7 @@ if($method == 'POST'){
 			"formattedText"=> $review,
 			"buttons"=> [
 				[
-					"title"=> $title,
+					"title"=> "View in NLB Catalogue",
 					"openUrlAction"=> [
 						"url"=> $bookurl
 					]
