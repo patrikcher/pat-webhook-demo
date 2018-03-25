@@ -32,6 +32,49 @@ if($method == 'POST'){
 			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio></speak>';
 			$display = 'Now reading book review for ' . $title;			
 			
+			// push initial messages of selected book title
+			$messages=[];
+			array_push($messages, array(
+					"type"=> "simple_response",
+					"platform" => "google",
+					"textToSpeech" => $speech,
+					"displayText" => $display
+				)
+			);
+			
+			// build card for selected book title
+			array_push($messages, array(
+					"type"=> "basic_card",
+					"platform"=> "google",
+					
+					// options for cards
+					"title"=> $title,
+					"subtitle"=> $author,
+					"image"=> [
+						"url" => $thumbnail,
+						"accessibility_text" => 'Thumbnail for ' . $title
+					],
+					//"formattedText"=> 'Text for card',
+					"buttons"=> [
+						[
+							"title"=> $title,
+							"openUrlAction"=> [
+								"url"=> $bookurl
+							]
+						]
+					]
+				)
+			);
+			
+			// outro
+			array_push($messages, array(
+					"type"=> "simple_response",
+					"platform" => "google",
+					"textToSpeech" => "Would you like me to read another review?",
+					"displayText" => "Would you like me to read another review?"
+				)
+			);
+			
 			break;
 
 		case ($text == 'bye' || $text == 'no'):
@@ -46,47 +89,6 @@ if($method == 'POST'){
 			
 			break;
 	}
-	
-	$messages=[];
-    array_push($messages, array(
-            "type"=> "simple_response",
-            "platform" => "google",
-            "textToSpeech" => $speech,
-			"displayText" => $display
-        )
-    );
-	
-	// build card
-	array_push($messages, array(
-            "type"=> "basic_card",
-            "platform"=> "google",
-			
-			// options for cards
-            "title"=> $title,
-            "subtitle"=> $author,
-            "image"=> [
-                "url" => $thumbnail,
-                "accessibility_text" => 'Thumbnail for ' . $title
-            ],
-            //"formattedText"=> 'Text for card',
-            "buttons"=> [
-                [
-                    "title"=> $title,
-                    "openUrlAction"=> [
-                        "url"=> $bookurl
-                    ]
-                ]
-            ]
-        )
-    );
-	
-	array_push($messages, array(
-            "type"=> "simple_response",
-            "platform" => "google",
-            "textToSpeech" => "Would you like me to read another review?",
-			"displayText" => "Would you like me to read another review?"
-        )
-    );
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
