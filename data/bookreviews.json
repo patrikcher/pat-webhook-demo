@@ -1,5 +1,28 @@
 [
-{"id": "1", "title": "Black Panther: Who is Black Panther?", "author": "Reginald Hudin", "filepath": "https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3", "thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/0785197990%20(paperback)", "bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200181887"},
-{"id": "2", "title": "From the Belly of the Cat", "author": "Stephanie Ye", "filepath": "https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3", "thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/9789810776565%20(paperback)", "bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=201328171"},
-{"id": "3", "title": "Wonder Boys", "author": "Michael Chabon", "filepath": "https://pat-webhook-demo.herokuapp.com/rsc/WonderBoys.mp3", "thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/0812979214%20(trade%20pbk.)", "bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13173221"}
+	{
+	"id": "1", 
+	"title": "Black Panther: Who is Black Panther?", 
+	"author": "Reginald Hudin", "filepath": "https://pat-webhook-demo.herokuapp.com/rsc/BlackPanther.mp3", 
+	"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/0785197990%20(paperback)", 
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200181887", 
+	"review": "If you thought Black Panther the movie was fantastic, you might want to check out the groundbreaking comics behind it. Marvel’s first black comic hero, Black Panther, was first created in 1966 and introduced in issue 52 of Fantastic Four. That’s over 50 years’ worth of comics to catch up on! To bring you up to speed, we recommend borrowing ‘Black Panther: Who is the Black Panther?’. Released by Marvel Comics in 2018, this collection brings together the various comics featuring Black Panther in one book. The story traces the origins of a warrior-king Black Panther, also known as T'Challa, who governs Wakanda, a fictional African nation. Black Panther is put to the test when a powerful enemy attacks Wakanda."
+	},
+	{
+	"id": "2", 
+	"title": "From the Belly of the Cat", 
+	"author": "Stephanie Ye", 
+	"filepath": "https://pat-webhook-demo.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3", 
+	"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/9789810776565%20(paperback)", 
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=201328171", 
+	"review": "'From the Belly of the Cat' is a delightful collection of 15 feline-themed short stories. Discover our sunny island through the works of these authors and walk in the paws of our furry friends. Some stories you’ll find in the collection are 'The Cat Auntie of Lengkok Bahru', 'Other people’s cats', and 'The fat cat, ate dad’s hat'. For the most cat-hartic experience, we recommend snuggling up to this book on a rainy afternoon, with a cup of tea, and a cat by your side."
+	},
+	{
+	"id": "3", 
+	"title": "Wonder Boys", 
+	"author": "Michael Chabon", 
+	"filepath": "https://pat-webhook-demo.herokuapp.com/rsc/WonderBoys.mp3", 
+	"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/0812979214%20(trade%20pbk.)", 
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13173221", 
+	"review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+	}
 ]
