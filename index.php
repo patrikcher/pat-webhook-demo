@@ -83,14 +83,14 @@ if($method == 'POST'){
 			break;
 	}
 	
-	// push initial messages of selected book title
+	/* // push initial messages of selected book title
 	array_push($messages, array(
 			"type"=> "simple_response",
 			"platform" => "google",
 			"textToSpeech" => $speech,
 			"displayText" => $display
 		)
-	);
+	); */
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
