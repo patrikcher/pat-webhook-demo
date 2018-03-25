@@ -29,18 +29,26 @@ if($method == 'POST'){
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
 			$author = $bookReviewsJson[$num]['author'];
 			
-			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio></speak>';
-			$display = 'Now reading book review for ' . $title;			
+			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>Would you like me to read another review?</speak>';
+			$display = 'Now reading book review for ' . $title . 'Would you like me to read another review?';			
 			
-			// push initial messages of selected book title
+			break;
+
+		case ($text == 'bye' || $text == 'no'):
+			$speech = 'Goodbye, come again soon.';
+			$display = $speech;
+			
+			break;
+			
+		default:
+			$speech = 'Sorry, I didnt get that.';
+			$display = $speech;
+			
+			break;
+	}
+	
+	// push initial messages of selected book title
 			$messages=[];
-			array_push($messages, array(
-					"type"=> "simple_response",
-					"platform" => "google",
-					"textToSpeech" => $speech,
-					"displayText" => $display
-				)
-			);
 			
 			// build card for selected book title
 			array_push($messages, array(
@@ -66,29 +74,13 @@ if($method == 'POST'){
 				)
 			);
 			
-			// outro
 			array_push($messages, array(
 					"type"=> "simple_response",
 					"platform" => "google",
-					"textToSpeech" => "Would you like me to read another review?",
-					"displayText" => "Would you like me to read another review?"
+					"textToSpeech" => $speech,
+					"displayText" => $display
 				)
 			);
-			
-			break;
-
-		case ($text == 'bye' || $text == 'no'):
-			$speech = 'Goodbye, come again soon.';
-			$display = $speech;
-			
-			break;
-			
-		default:
-			$speech = 'Sorry, I didnt get that.';
-			$display = $speech;
-			
-			break;
-	}
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
