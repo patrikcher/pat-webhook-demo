@@ -33,68 +33,19 @@ if($method == 'POST'){
 			$author = $bookReviewsJson[$num]['author'];
 			
 			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';					
-			
-			// push initial messages of selected book title
-			array_push($messages, array(
-					"type"=> "simple_response",
-					"platform" => "google",
-					"textToSpeech" => $speech,
-					"displayText" => $display
-				)
-			);
-					
-			// build card for selected book title
-			array_push($messages, array(
-					"type"=> "basic_card",
-					"platform"=> "google",
-			
-					// options for cards
-					"title"=> $title,
-					"subtitle"=> $author,
-					"image"=> [
-						"url" => $thumbnail,
-						"accessibility_text" => 'Thumbnail for ' . $title
-					],
-					//"formattedText"=> 'Text for card',
-					"buttons"=> [
-						[
-							"title"=> $title,
-							"openUrlAction"=> [
-								"url"=> $bookurl
-							]
-						]
-					]
-				)
-			);
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
 			break;
 
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
-			//$speech = 'Goodbye, come again soon.';
-			//$display = $speech;
-			
-			array_push($messages, array(
-					"type"=> "simple_response",
-					"platform" => "google",
-					"textToSpeech" => $speech,
-					"displayText" => $display
-				)
-			);
+			$speech = 'Goodbye, come again soon.';
+			$display = $speech;
 			
 			break;
 			
 		default:
-			//$speech = 'Sorry, I didnt get that.';
-			//$display = $speech;
-			
-			array_push($messages, array(
-					"type"=> "simple_response",
-					"platform" => "google",
-					"textToSpeech" => $speech,
-					"displayText" => $display
-				)
-			);
+			$speech = 'Sorry, I didnt get that.';
+			$display = $speech;
 			
 			break;
 	}
@@ -105,6 +56,30 @@ if($method == 'POST'){
 			"platform" => "google",
 			"textToSpeech" => $speech,
 			"displayText" => $display
+		)
+	);
+	
+	// build card for selected book title
+	array_push($messages, array(
+			"type"=> "basic_card",
+			"platform"=> "google",
+	
+			// options for cards
+			"title"=> $title,
+			"subtitle"=> $author,
+			"image"=> [
+				"url" => $thumbnail,
+				"accessibility_text" => 'Thumbnail for ' . $title
+			],
+			//"formattedText"=> 'Text for card',
+			"buttons"=> [
+				[
+					"title"=> $title,
+					"openUrlAction"=> [
+						"url"=> $bookurl
+					]
+				]
+			]
 		)
 	);
 	
