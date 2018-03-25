@@ -49,6 +49,13 @@ if($method == 'POST'){
 	
 	// push initial messages of selected book title
 			$messages=[];
+			array_push($messages, array(
+					"type"=> "simple_response",
+					"platform" => "google",
+					"textToSpeech" => $speech,
+					"displayText" => $display
+				)
+			);
 			
 			// build card for selected book title
 			array_push($messages, array(
@@ -74,11 +81,12 @@ if($method == 'POST'){
 				)
 			);
 			
+			// outro
 			array_push($messages, array(
 					"type"=> "simple_response",
 					"platform" => "google",
-					"textToSpeech" => $speech,
-					"displayText" => $display
+					"textToSpeech" => "Would you like me to read another review?",
+					"displayText" => "Would you like me to read another review?"
 				)
 			);
 	
