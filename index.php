@@ -29,8 +29,32 @@ if($method == 'POST'){
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
 			$author = $bookReviewsJson[$num]['author'];
 			
+			// build card for selected book title
+			array_push($messages, array(
+					"type"=> "basic_card",
+					"platform"=> "google",
+			
+					// options for cards
+					"title"=> $title,
+					"subtitle"=> $author,
+					"image"=> [
+						"url" => $thumbnail,
+						"accessibility_text" => 'Thumbnail for ' . $title
+					],
+					//"formattedText"=> 'Text for card',
+					"buttons"=> [
+						[
+							"title"=> $title,
+							"openUrlAction"=> [
+								"url"=> $bookurl
+							]
+						]
+					]
+				)
+			);
+			
 			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . 'Would you like me to read another review?';			
+			$display = 'Now reading book review for ' . $title . 'Would you like me to read another review?';					
 			
 			break;
 
@@ -54,30 +78,6 @@ if($method == 'POST'){
 			"platform" => "google",
 			"textToSpeech" => $speech,
 			"displayText" => $display
-		)
-	);
-	
-	// build card for selected book title
-	array_push($messages, array(
-			"type"=> "basic_card",
-			"platform"=> "google",
-	
-			// options for cards
-			"title"=> $title,
-			"subtitle"=> $author,
-			"image"=> [
-				"url" => $thumbnail,
-				"accessibility_text" => 'Thumbnail for ' . $title
-			],
-			//"formattedText"=> 'Text for card',
-			"buttons"=> [
-				[
-					"title"=> $title,
-					"openUrlAction"=> [
-						"url"=> $bookurl
-					]
-				]
-			]
 		)
 	);
 	
