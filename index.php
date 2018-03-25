@@ -48,47 +48,38 @@ if($method == 'POST'){
 	}
 	
 	// push initial messages of selected book title
-			$messages=[];
-			array_push($messages, array(
-					"type"=> "simple_response",
-					"platform" => "google",
-					"textToSpeech" => $speech,
-					"displayText" => $display
-				)
-			);
-			
-			// build card for selected book title
-			array_push($messages, array(
-					"type"=> "basic_card",
-					"platform"=> "google",
-					
-					// options for cards
+	$messages=[];
+	array_push($messages, array(
+			"type"=> "simple_response",
+			"platform" => "google",
+			"textToSpeech" => $speech,
+			"displayText" => $display
+		)
+	);
+	
+	// build card for selected book title
+	array_push($messages, array(
+			"type"=> "basic_card",
+			"platform"=> "google",
+	
+			// options for cards
+			"title"=> $title,
+			"subtitle"=> $author,
+			"image"=> [
+				"url" => $thumbnail,
+				"accessibility_text" => 'Thumbnail for ' . $title
+			],
+			//"formattedText"=> 'Text for card',
+			"buttons"=> [
+				[
 					"title"=> $title,
-					"subtitle"=> $author,
-					"image"=> [
-						"url" => $thumbnail,
-						"accessibility_text" => 'Thumbnail for ' . $title
-					],
-					//"formattedText"=> 'Text for card',
-					"buttons"=> [
-						[
-							"title"=> $title,
-							"openUrlAction"=> [
-								"url"=> $bookurl
-							]
-						]
+					"openUrlAction"=> [
+						"url"=> $bookurl
 					]
-				)
-			);
-			
-			// outro
-			array_push($messages, array(
-					"type"=> "simple_response",
-					"platform" => "google",
-					"textToSpeech" => "Would you like me to read another review?",
-					"displayText" => "Would you like me to read another review?"
-				)
-			);
+				]
+			]
+		)
+	);
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
