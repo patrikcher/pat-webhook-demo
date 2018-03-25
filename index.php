@@ -31,9 +31,10 @@ if($method == 'POST'){
 			$thumbnail = $bookReviewsJson[$num]['thumbnail'];
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
 			$author = $bookReviewsJson[$num]['author'];
+			$review = $bookReviewsJson[$num]['review'];
 			
 			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?' . $review;
 			
 			break;
 
@@ -72,6 +73,7 @@ if($method == 'POST'){
 				"accessibility_text" => 'Thumbnail for ' . $title
 			],
 			//"formattedText"=> 'Text for card',
+			"formattedText"=> $review,
 			"buttons"=> [
 				[
 					"title"=> $title,
