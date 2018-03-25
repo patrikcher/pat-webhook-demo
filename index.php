@@ -36,61 +36,77 @@ if($method == 'POST'){
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';					
 			
 			// push initial messages of selected book title
-	array_push($messages, array(
-			"type"=> "simple_response",
-			"platform" => "google",
-			"textToSpeech" => $speech,
-			"displayText" => $display
-		)
-	);
-			
+			array_push($messages, array(
+					"type"=> "simple_response",
+					"platform" => "google",
+					"textToSpeech" => $speech,
+					"displayText" => $display
+				)
+			);
+					
 			// build card for selected book title
-	array_push($messages, array(
-			"type"=> "basic_card",
-			"platform"=> "google",
-	
-			// options for cards
-			"title"=> $title,
-			"subtitle"=> $author,
-			"image"=> [
-				"url" => $thumbnail,
-				"accessibility_text" => 'Thumbnail for ' . $title
-			],
-			//"formattedText"=> 'Text for card',
-			"buttons"=> [
-				[
+			array_push($messages, array(
+					"type"=> "basic_card",
+					"platform"=> "google",
+			
+					// options for cards
 					"title"=> $title,
-					"openUrlAction"=> [
-						"url"=> $bookurl
+					"subtitle"=> $author,
+					"image"=> [
+						"url" => $thumbnail,
+						"accessibility_text" => 'Thumbnail for ' . $title
+					],
+					//"formattedText"=> 'Text for card',
+					"buttons"=> [
+						[
+							"title"=> $title,
+							"openUrlAction"=> [
+								"url"=> $bookurl
+							]
+						]
 					]
-				]
-			]
-		)
-	);
+				)
+			);
 			
 			break;
 
-		case ($text == 'bye' || $text == 'no'):
-			$speech = 'Goodbye, come again soon.';
-			$display = $speech;
+		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
+			//$speech = 'Goodbye, come again soon.';
+			//$display = $speech;
+			
+			array_push($messages, array(
+					"type"=> "simple_response",
+					"platform" => "google",
+					"textToSpeech" => $speech,
+					"displayText" => $display
+				)
+			);
 			
 			break;
 			
 		default:
-			$speech = 'Sorry, I didnt get that.';
-			$display = $speech;
+			//$speech = 'Sorry, I didnt get that.';
+			//$display = $speech;
+			
+			array_push($messages, array(
+					"type"=> "simple_response",
+					"platform" => "google",
+					"textToSpeech" => $speech,
+					"displayText" => $display
+				)
+			);
 			
 			break;
 	}
 	
-	/* // push initial messages of selected book title
+	// push initial messages of selected book title
 	array_push($messages, array(
 			"type"=> "simple_response",
 			"platform" => "google",
 			"textToSpeech" => $speech,
 			"displayText" => $display
 		)
-	); */
+	);
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
