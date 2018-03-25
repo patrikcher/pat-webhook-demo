@@ -26,6 +26,8 @@ if($method == 'POST'){
 			$title = $bookReviewsJson[$num]['title'];
 			$filepath = $bookReviewsJson[$num]['filepath'];
 			$thumbnail = $bookReviewsJson[$num]['thumbnail'];
+			$bookurl = $bookReviewsJson[$num]['bookurl'];
+			$author = $bookReviewsJson[$num]['author'];
 			
 			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>Would you like me to read another review?</speak>';
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read  another review?';			
@@ -61,7 +63,7 @@ if($method == 'POST'){
 			
 			// options for cards
             "title"=> $title,
-            //"subtitle"=> "card subtitle",
+            "subtitle"=> $author,
             "image"=> [
                 "url" => $thumbnail,
                 "accessibility_text" => 'Thumbnail for ' . $title
@@ -71,7 +73,7 @@ if($method == 'POST'){
                 [
                     "title"=> $title,
                     "openUrlAction"=> [
-                        "url"=> "http://lorempixel.com/200/200"
+                        "url"=> $bookurl
                     ]
                 ]
             ]
