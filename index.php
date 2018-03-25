@@ -44,9 +44,41 @@ if($method == 'POST'){
 			break;
 	}
 	
+	$messages=[];
+    array_push($messages, array(
+            "type"=> "simple_response",
+            "platform"=> "google",
+            "textToSpeech"=> $speech
+        )
+    );
+	
+	// build card
+	array_push($messages, array(
+            "type"=> "basic_card",
+            "platform"=> "google",
+			// options for cards
+            //"title"=> "Card title",
+            //"subtitle"=> "card subtitle",
+            "image"=> [
+                "url"=>'http://lorempixel.com/600/200',
+                "accessibility_text"=>'image-alt'
+            ],
+            //"formattedText"=> 'Text for card',
+            /*"buttons"=> [
+                [
+                    "title"=> "Button title",
+                    "openUrlAction"=> [
+                        "url"=> "http://lorempixel.com/200/200"
+                    ]
+                ]
+            ]*/
+        )
+    );
+	
 	$response = new \stdClass();
 	$response->speech = $speech;
 	$response->displayText = $display;
+	$response->messages $messages;
 	$response->source = "webhook";
 	echo json_encode($response);
 }
