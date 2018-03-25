@@ -29,6 +29,10 @@ if($method == 'POST'){
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
 			$author = $bookReviewsJson[$num]['author'];
 			
+			
+			// array to store messages
+			$messages=[];
+			
 			// build card for selected book title
 			array_push($messages, array(
 					"type"=> "basic_card",
@@ -54,7 +58,7 @@ if($method == 'POST'){
 			);
 			
 			$speech = '<speak><audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . 'Would you like me to read another review?';					
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';					
 			
 			break;
 
@@ -72,7 +76,6 @@ if($method == 'POST'){
 	}
 	
 	// push initial messages of selected book title
-	$messages=[];
 	array_push($messages, array(
 			"type"=> "simple_response",
 			"platform" => "google",
