@@ -47,8 +47,9 @@ if($method == 'POST'){
 	$messages=[];
     array_push($messages, array(
             "type"=> "simple_response",
-            "platform"=> "google",
-            "textToSpeech"=> $speech
+            "platform" => "google",
+            "textToSpeech" => $speech,
+			"displayText" => $display
         )
     );
 	
@@ -76,10 +77,11 @@ if($method == 'POST'){
     );
 	
 	$response = new \stdClass();
-	$response->speech = $speech;
-	$response->displayText = $display;
-	$response->messages $messages;
 	$response->source = "webhook";
+	//$response->speech = $speech;
+	//$response->displayText = $display;
+	$response->messages $messages;
+	$response->contextOut = array();
 	echo json_encode($response);
 }
 else
