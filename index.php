@@ -12,6 +12,9 @@ if($method == 'POST'){
 	
 	$bookReviews = file_get_contents('https://pat-webhook-demo.herokuapp.com/data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
+	
+	// array to store messages
+	$messages=[];
 
 	switch ($text) {
 		case 'hi':
@@ -46,10 +49,6 @@ if($method == 'POST'){
 			
 			break;
 	}
-	
-	
-	// array to store messages
-	$messages=[];
 	
 	// push initial messages of selected book title
 	array_push($messages, array(
