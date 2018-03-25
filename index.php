@@ -12,6 +12,9 @@ if($method == 'POST'){
 	
 	$bookReviews = file_get_contents('https://pat-webhook-demo.herokuapp.com/data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
+	
+	// array to store messages
+	$messages=[];
 
 	switch ($text) {
 		case 'hi':
@@ -28,10 +31,6 @@ if($method == 'POST'){
 			$thumbnail = $bookReviewsJson[$num]['thumbnail'];
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
 			$author = $bookReviewsJson[$num]['author'];
-			
-			
-			// array to store messages
-			$messages=[];
 			
 			// build card for selected book title
 			array_push($messages, array(
