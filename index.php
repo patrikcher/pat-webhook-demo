@@ -80,12 +80,20 @@ if($method == 'POST'){
         )
     );
 	
+	array_push($messages, array(
+            "type"=> "simple_response",
+            "platform" => "google",
+            "textToSpeech" => "Would you like me to read another review?",
+			"displayText" => "Would you like me to read another review?"
+        )
+    );
+	
 	$response = new \stdClass();
 	$response->source = "webhook";
 	//$response->speech = $speech;
 	//$response->displayText = $display;
 	$response->messages = $messages;
-	//$response->contextOut = array();
+	$response->contextOut = array();
 	echo json_encode($response);
 }
 else
