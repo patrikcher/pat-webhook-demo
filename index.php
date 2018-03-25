@@ -57,12 +57,13 @@ if($method == 'POST'){
 	array_push($messages, array(
             "type"=> "basic_card",
             "platform"=> "google",
+			
 			// options for cards
-            //"title"=> "Card title",
+            "title"=> $title,
             //"subtitle"=> "card subtitle",
             "image"=> [
-                "url"=>'http://lorempixel.com/600/200',
-                "accessibility_text"=>'image-alt'
+                "url" => 'http://lorempixel.com/600/200',
+                "accessibility_text" => 'image-alt'
             ],
             //"formattedText"=> 'Text for card',
             /*"buttons"=> [
