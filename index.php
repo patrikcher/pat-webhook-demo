@@ -10,7 +10,7 @@ if($method == 'POST'){
 
 	$text = $json->result->parameters->text;
 	
-	$bookReviews = file_get_contents('../data/bookreviews.json');
+	$bookReviews = file_get_contents('/data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
 	
 	// array to store messages
