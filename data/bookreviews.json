@@ -43,5 +43,23 @@
 	"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780399256776/mc.gif&client=natlibsingapore&upc=&oclc=855507153",
 	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3324620/44294313,1",
 	"review": "It all started with a dangerous plague spreading around The Republic. June Iparis had nothing to worry about. She was an elite; she had money, status and plague cures to last a lifetime. However, that all changed when she met Day. Her allegiance to her beloved government started to waiver when she discovered just how dark and corrupted it was. Working with Day, she must now stop the plague from spreading whilst, preventing themselves from getting infected. This book is very interesting and action-packed. I would absolutely love to be in June’s shoes; her life is always so eventful and amazing."
+	},
+	{
+	"id": "6",
+	"title": "The Ghost of Graylock",
+	"author": "Dan Poblocki",
+	"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheGhostOfGraylock.mp3",
+	"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0545402689/mc.gif&client=natlibsingapore&upc=&oclc=769991476",
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=The+Ghost+of+Graylock+&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=The+Ghost+of+Graylock+&SORTS=SQL_REL_TITLE",
+	"review": "3 storms. 3 blackouts. 3 children found drowned in the same lake in Graylock Hall, a psychiatric hospital. The nurse, who worked the shift when the children died, was arrested. The following day, she was found dead. Years later, Neil Cady, Bree Cady, Wesley Baptiste and Eric Baptiste decide to visit the abandoned hospital to explore its secrets. They experience strange situations in the building and Neil gets hurt. After leaving the hospital, Neil and Bree have bad nightmares and Neil starts seeing the same 3 pictures. Did the ghost of Nurse Janet follow Neil home or is it someone else?"
+	},
+	{
+	"id": "7",
+	"title": "Haunting Violet",
+	"author": "Alyxandra Harvey",
+	"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/HauntingViolet.mp3",
+	"thumbnail": "http://www.syndetics.com/index.aspx?isbn=080279839X/mc.gif&client=natlibsingapore&upc=&oclc=664450564",
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3335494/5345620,1",
+	"review": "Violet’s mother, Celeste Willoughby, is a medium, or so it seems. People enlist her help to communicate with their deceased family member, friend etcetera. One trip to Rosefield changes their life – Celeste is exposed as a fraudulent medium and together with Violet, Colin and Marjorie, they flee back to their home in London. People threw stinking produce at their doorsteps – rotten cabbage, squashed radishes, pie crust, mouldy cheese. You name it, they throw it. Rowena, a deceased girl, counts on Violet, who can see her, to expose her murderer. With a murder case to solve, relationship problems to handle and a new, extremely terrifying ability to see the dead, can Violet cope?"
 	}
 ]
