@@ -61,5 +61,14 @@
 	"thumbnail": "http://www.syndetics.com/index.aspx?isbn=080279839X/mc.gif&client=natlibsingapore&upc=&oclc=664450564",
 	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3335494/5345620,1",
 	"review": "Violet’s mother, Celeste Willoughby, is a medium, or so it seems. People enlist her help to communicate with their deceased family member, friend etcetera. One trip to Rosefield changes their life – Celeste is exposed as a fraudulent medium and together with Violet, Colin and Marjorie, they flee back to their home in London. People threw stinking produce at their doorsteps – rotten cabbage, squashed radishes, pie crust, mouldy cheese. You name it, they throw it. Rowena, a deceased girl, counts on Violet, who can see her, to expose her murderer. With a murder case to solve, relationship problems to handle and a new, extremely terrifying ability to see the dead, can Violet cope?"
+	},
+	{
+	"id": "8",
+	"title": "Coping with Chloe",
+	"author": "Rosalie Warren",
+	"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/CopingWithChloe.mp3",
+	"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781907912023/mc.gif&client=natlibsingapore&upc=&oclc=743472435",
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=coping+with+chloe&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=coping+with+chloe&SORTS=SQL_REL_TITLE",
+	"review": "The book is about Chloe and Anna who are twins. They share everything from secrets to clothes, from fending off the school bully to dealing with their parents’ separation. Even Chloe’s terrible accident hasn’t split them apart. A new boy came to their class and the boy’s name is Joe. Anna and Chloe’s father has a girlfriend called Nikki. They want their father to be with them and not to be with his girlfriend. Chloe had an accident because a lorry hit her. What do you guys think the end will be? What will Anna do after the accident? After all, twins have a special bond right?"
 	}
 ]
