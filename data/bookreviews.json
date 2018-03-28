@@ -24,5 +24,23 @@
 	"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/0812979214%20(trade%20pbk.)", 
 	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13173221", 
 	"review": "If you’ve ever gone through the stress of a writing programme, you’ll relate to ‘Wonder Boys’ by Michael Chabon. Hilarious and heart-breaking, Wonder Boys takes us on a journey with Grady, an ageing writer. Once a literary phenomenon, Grady is now struggling with a behemoth of  a novel meant to be his magnum opus. Plus, it doesn’t help that Grady’s personal life seems to be unravelling too."
+	},
+	{
+	"id": "4",
+	"title": "Bloody Horowitz",
+	"author": "Anthony Horowitz",
+	"filepath": "https://pat-webhook-demo.herokuapp.com/rsc/BloodyHorowitz.mp3",
+	"thumbnail": "http://www.syndetics.com/index.aspx?isbn=039925451X/mc.gif&client=natlibsingapore&upc=&oclc=471815801",
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3321375/4869202,1",
+	"review": "Bloody Horowitz is a collection of gruesome, gory, bone-chilling, and of course bloody stories packed into a single thrilling read. Whether it is supernatural forces, murder, or diseases found in science fiction books, this book has it all. A phantom snake? Check. Human barbecue? Check. Game shows where you either die or become a millionaire? Check."
+	},
+	{
+	"id": "5",
+	"title": "Champion",
+	"author": "Marie Lu",
+	"filepath": "https://pat-webhook-demo.herokuapp.com/rsc/Champion.mp3",
+	"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780399256776/mc.gif&client=natlibsingapore&upc=&oclc=855507153",
+	"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3324620/44294313,1",
+	"review": "It all started with a dangerous plague spreading around The Republic. June Iparis had nothing to worry about. She was an elite; she had money, status and plague cures to last a lifetime. However, that all changed when she met Day. Her allegiance to her beloved government started to waiver when she discovered just how dark and corrupted it was. Working with Day, she must now stop the plague from spreading whilst, preventing themselves from getting infected. This book is very interesting and action-packed. I would absolutely love to be in June’s shoes; her life is always so eventful and amazing."
 	}
 ]
