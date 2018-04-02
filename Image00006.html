@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<title>NLB Widget</title> <script src="http://eservice.nlb.gov.sg/istream/widget/nlb-iss-widget-0.5.0.js"></script>
+	</head>
+	<body>
+		<div id="widget-ct" style="width:900px; height:400px; background-color: gray;"></div>
+		<script type="text/javascript"> var element = document.getElementById('widget-ct');
+			// Cache parameters 
+			var sessionId = 'TEST_SESSION_ID'; 
+			var watermarkId = 'nas_blk_bb'; 
+			var imageId = '466f0a8c-3666-11e8-b467-0ed5f89f718b'; 
+			var resourceUrl = 'http://eservice-stg.nlb.gov.sg/istream/api/1/iiif/' + watermarkId + '/' + imageId + '/info.json';
+		
+			// Create instance of the widget
+			var widget = new NLB.IssWidget(element, {
+				sessionId: sessionId,
+				resourceUrl: resourceUrl,
+		
+				// Add more functions to the widget
+				showNavigator: true,
+				showWebsiteButton: false
+			});
+		</script>
+	</body>
+</html>
