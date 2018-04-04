@@ -223,5 +223,50 @@
 		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0451463730/mc.gif&client=natlibsingapore&upc=&oclc=697485457",
 		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13765596",
 		"review": "An attempted assassination on the King of Sabria seems to point towards the Queen’s doing but beneath the surface, it hints at a more sinister plan that may throw the entire kingdom into turmoil. A magical spyglass – found on the body of the dead assassin – shows the horrific scenes of Ixtador’s Ten Gates to those who looked through it. How is everything linked?"
+	},
+	{
+		"id": "26",
+		"title": "Ysabel",
+		"author": "Guy Gavriel Kay",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Ysabel.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0007342039/mc.gif&client=natlibsingapore&upc=&oclc=495598185",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13700190",
+		"review": "Ned Marriner is spending six weeks with his father in Provence, where the celebrated photographer is shooting images of the Saint-Sauveur Cathedral for a glossy coffee-table book. An exploration of the shadowy interiors unearths a surprising discovery, and soon Ned is embroiled in a haunting tale of love, loss and sacrifice that reaches 2,500 years into the past."
+	},
+	{
+		"id": "27",
+		"title": "May Contain Traces of Magic",
+		"author": "Tom Holt",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/MayContainTracesOfMagic.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1841495069/mc.gif&client=natlibsingapore&upc=&oclc=495597544",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13604340",
+		"review": "Mild-mannered sales representative Chris Popham spends his days peddling magical products such as portable parking spaces, the inexplicably popular dried water (“Just add…”) and books capable of telling you exactly what you need to know. But then Chris discovers that his navigation device (‘SatNav’) is really an imprisoned soul who will do anything it can to get free. What follows is a hilariously bewildering adventure peppered with Holt’s characteristic brand of wacky humour."
+	},
+	{
+		"id": "28",
+		"title": "Kurt Busiek's Astro City: The Tarnished Angel",
+		"author": "Kurt Busiek",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/KurtBusiek.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781563896538/mc.gif&client=natlibsingapore&upc=&oclc=45176326",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=10090566",
+		"review": "Steeljak, the Steel-Jacketed Man, is paroled from prison and sets off in search of a peaceful life, until his past begins to catch up with him."
+	},
+	{
+		"id": "29",
+		"title": "Whatever Happened to the Caped Crusader?",
+		"author": "Neil Gaiman",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/WhateverHappened.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1401227244/mc.gif&client=natlibsingapore&upc=&oclc=462880925",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13696909",
+		"review": "Both friends and enemies of the deceased Batman gather around his coffin and tell their different stories of the Batman they once knew."
+	},
+	{
+		"id": "30",
+		"title": "Batman: The Dark Knight Returns",
+		"author": "Frank Miller",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BatmanTheDarkKnightReturns.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=156389341X/mc.gif&client=natlibsingapore&upc=&oclc=51289169",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13655959",
+		"review": "Ten years after his retirement, a troubled Batman returns to the streets, evening the score with criminals in an increasingly violent manner, which brings trouble from the police and a gang called the Mutants and a conflict with Superman."
 	}
 ]
