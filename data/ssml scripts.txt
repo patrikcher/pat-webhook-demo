@@ -221,7 +221,7 @@ God of War: [the official novel of the thrilling video game]
 
 
 The Spirit Lens: A Novel of the Collegia Magica
-<s>An attempted assassination on the King of Sabria seems to point towards the Queen’s doing but beneath the surface, it hints at a more sinister plan that may throw the entire kingdom into turmoil.</s><s>A magical spyglass – found on the body of the dead assassin – shows the horrific scenes of Ixtador’s Ten Gates to those who looked through it.</s><s>How is everything linked?</s>
+<s>An attempted assassination on the King of Sabria seems to point towards the Queen’s doing but beneath the surface, it hints at a more sinister plan that may throw the entire kingdom into turmoil.</s><s>A magical spyglass – found on the body of the dead assassin – shows the horrific scenes of Ixtador’s Ten Gates to those who looked through it.</s>
 <break time="1s"/>
 <s>The Spirit Lens: A Novel of the Collegia Magica is written by Carol Berg, and can be found at the library under this call number <say-as interpret-as="characters">BER - FN</say-as>.</s>
 
@@ -302,7 +302,7 @@ Black Paths
 
 
 The Alchemist: A Graphic Novel
-<s>An adaptation in graphic novel format of a modern classic about the globe-trotting spiritual journey of a humble shepherd boy.</s>
+<s>The Alchemist is an adaptation in graphic novel format of a modern classic about the globe-trotting spiritual journey of a humble shepherd boy.</s>
 <break time="1s"/>
 <s>The Alchemist: A Graphic Novel is written by Paulo Coelho, and can be found at the library under this call number <say-as interpret-as="characters">741.59468 RUI -</say-as>[ART].</s>
 
@@ -322,7 +322,7 @@ The Chicktionary: From A-Line to Z-Snap, the Words Every Woman Should Know
 
 
 The Queen's English : An A to Zed Guide to Distinctively British Words
-<s>If you are thinking of visiting the land of the English, you might want to get your hands on this book first.</s><s>Otherwise, the lack of knowledge might leave you baffled when you receive a bag of french fries after ordering chips!</s><s>Wondering what you should say to get a bag of chips?<?s><s>Well, over there, they call it ‘crisp’.</s>
+<s>If you are thinking of visiting the land of the English, you might want to get your hands on this book first.</s><s>Otherwise, the lack of knowledge might leave you baffled when you receive a bag of french fries after ordering chips!</s><s>Wondering what you should say to get a bag of chips?</s><s>Well, over there, they call it ‘crisp’.</s>
 <break time="1s"/>
 <s>The Queen's English is a quick and easy guide to common words and phrases used by the English.</s><s>The list of words and phrases has been arranged alphabetically for easy search, and the explanation for each entry is clearly and humorously described.</s>
 <break time="1s"/>
@@ -331,7 +331,7 @@ The Queen's English : An A to Zed Guide to Distinctively British Words
 
 
 The Banned List: A Manifesto Against Jargon and Cliché
-<s>The Banned List consists of a list of clichés and jargon compiled by creator John Rentoul with an elaborate (and humorous) introduction detailing how common these words/phrases are overused.</s><s>Some examples are: ‘epic fail’, ‘level up’, ‘killer app’ and ‘stakeholder’.</s><s>The author’s dislike for stock phrases led him to create a banned list in 2008 – these words are listed alphabetically in the book.</s>
+<s>The Banned List consists of a list of clichés and jargon compiled by creator John Rentoul with an elaborate (and humorous) introduction detailing how common these words/phrases are overused.</s><s>Some examples are: ‘epic fail’, ‘level up’, ‘killer app’ and ‘stakeholder’.</s><s>The author’s dislike for stock phrases led him to create a banned list in 2008.</s>
 <break time="1s"/>
 <s>Instead of resorting to clichés, the author strongly encourages readers to take the effort to explain and argue their point and to summarise rather than resort to jargon.</s>
 <break time="1s"/>
@@ -362,9 +362,13 @@ Ball of Confusion: Puzzles, Problems & Perplexing Posers
 
 
 Outside the Box Origami: A New Generation of Extraordinary Folds
-<s>Been folding cranes, airplanes and jumping frogs for a while?</s><s>Ready to take the next step: this book will blow you away with more creative designs!</s><s>All you need is a piece of paper and your hands of course: we can assure you that you will literally be ‘folding outside the box’!</s>
+<s>Exercise your brain by indulging in mind benders! For a start, try out the following puzzle titled: Old before his time?</s>
 <break time="1s"/>
-<s>Outside the Box Origami: A New Generation of Extraordinary Folds is written by Scott Wasserman Stern, and can be found at the library under this call number  English<say-as interpret-as="characters"> 736.982 STE - </say-as>ART.</s>
+<s>‘A chap once said to me, “The day before yesterday I was 19 and next year I’ll be 22.”</s><s>On what day was he born and when did he make the statement?</s>
+<break time="1s"/>
+<s>Find the answer in this book together with more brain-twisters that will keep you entertained for hours.</s>
+<break time="1s"/>
+<s>Outside the Box Origami: A New Generation of Extraordinary Folds is written by Scott Wasserman Stern, and can be found at the library under this call number  English <say-as interpret-as="characters">736.982 STE -</say-as> ART.</s>
 
 
 
