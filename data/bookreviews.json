@@ -268,5 +268,50 @@
 		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=156389341X/mc.gif&client=natlibsingapore&upc=&oclc=51289169",
 		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13655959",
 		"review": "Ten years after his retirement, a troubled Batman returns to the streets, evening the score with criminals in an increasingly violent manner, which brings trouble from the police and a gang called the Mutants and a conflict with Superman."
+	},
+	{
+		"id": "31",
+		"title": "August Moon",
+		"author": "Diana Thung",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/AugustMoon.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781603090698/mc.gif&client=natlibsingapore&upc=&oclc=809563990",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200160952",
+		"review": "The townspeople of Calico believe in the legend of the Soul Fire – orbs of light dancing through the night sky, believed to be the souls of dead ancestors watching over the town. But when eleven-year-old Fiona Gan comes to town with her dad, she learns the amazing truth: these fireballs are actually the light from lanterns carried by mysterious rabbit like creatures as they leap across rooftops. Leaping with them is the peculiar street boy Jaden, who rarely speaks and claims to come from the moon. But the games may be coming to an end when a creepy corporation starts bulldozing the nearby forests."
+	},
+	{
+		"id": "32",
+		"title": "Camelot 3000",
+		"author": "Mike W. Barr and Brian Bolland",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Camelot3000.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=140121942X/mc.gif&client=natlibsingapore&upc=&oclc=216937462",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13233560",
+		"review": "Based on the legend of King Arthur, the prophecy states that King Arthur would be back when England needs him and the time is now! Set in the year 3000, Earth is in danger of being invaded by aliens, the one TRUE king, Arthur will need all the help that he can get from Merlin and his reincarnated Knights of the Round Table to unite the planet."
+	},
+	{
+		"id": "33",
+		"title": "Beta Testing the Apocalypse",
+		"author": "Tom Kaczynski",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BetaTestingTheApocalypse.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781606995419/mc.gif&client=natlibsingapore&upc=&oclc=755704934",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200145007",
+		"review": "The book has 10 short stories, most notably "The New". "The New" is set in an unnamed third-world megalopolis. It could be Dhaka, Lagos, or Mumbai. The city creaks under the pressure of explosive growth. Whole districts are built in a week. The story follows a renowned starchitect as he struggles to impose his vision on the metropolis. A vision threatened by the massive dispossessed slum-proletariat inhabiting the slums on the edges of the city. From the fetid ferment of garbage dumps and shanties emerges a new feral architecture."
+	},
+	{
+		"id": "34",
+		"title": "Soldier Zero. Volume One",
+		"author": "Stan Lee, Paul Cornell, Javier Pina, Sergio Ariño, Alfred Rockefeller, Archie Van Buren and Ed Dukeshire",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/SoldierZero.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1608860477/mc.gif&client=natlibsingapore&upc=&oclc=687666854",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14003284",
+		"review": "Having lost his legs during the Afghanistan War, Capt. Stewart Trautmann returned stateside with an understandingly negative attitude towards combat and violence, but his convictions are put to the test when a devastating meteor shower brings an alien parasite that transforms him into the ultimate weapon."
+	},
+	{
+		"id": "35",
+		"title": "Black Paths",
+		"author": "David B",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BlackPaths.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781906838331/mc.gif&client=natlibsingapore&upc=&oclc=751524035",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200153435",
+		"review": "1919: the defeated Austro-Hungarian Empire is losing control of the city port of Fiume to pirates. A self-styled Pirate King, Gabriele d'Annunzio (poet, Italian war hero and Dadaist) storms the city with 3,000 loyal Italian footsoldiers. He declares Fiume a free Republic: a utopian city-state, with himself as Commander. The city soon descends into looting and surreal decadence, reminiscent of the last days of Rome."
 	}
 ]
