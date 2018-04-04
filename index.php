@@ -36,9 +36,21 @@ if($method == 'POST'){
 			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
 				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
 				'Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?' . '. Count is ' . count($bookReviewsJson);
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
-			unset($bookReviewsJson[$num]);
+			break;
+			
+		case ($text == 'repeat' || $text == 'again'):
+			if ($title != '') {
+				$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
+					'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
+					'Would you like me to read another review?</speak>';
+				$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
+			}
+			else {
+				$speech = '';
+				$display = 'Nothing to repeat.';
+			}
 			
 			break;
 
