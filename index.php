@@ -41,11 +41,6 @@ if($method == 'POST'){
 			unset($bookReviewsJson[$num]);
 			
 			break;
-			
-		case ($text == 'repeat' || $text == 'again'):
-			$readReviews = [];
-		
-			break;
 
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
 			$speech = 'Goodbye, come again soon.';
