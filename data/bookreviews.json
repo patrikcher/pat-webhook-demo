@@ -178,5 +178,50 @@
 		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1555977707/mc.gif&client=natlibsingapore&upc=&oclc=947147147",
 		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=Afterland+Mai+Der+Vang&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=Afterland+Mai+Der+Vang&SORTS=SQL_REL_TITLE",
 		"review": "Winner of the 2017 Walt Whitman Award, Afterland is a dazzling collection of poetry by American-Hmong poet, Mai Der Vang. The poet writes of violence and ghosts of the dead and living with grace and strength of “starlight lattice, riding mudwinds at post-thunder”. To write about death, is to also write about the life and living, for “the dead cannot be reborn in metal”."
+	},
+	{
+		"id": "21",
+		"title": "Best Served Cold ",
+		"author": "Joe Abercrombie",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BestServedCold.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780575082465/mc.gif&client=natlibsingapore&upc=&oclc=316426135",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13352892",
+		"review": "In Styria, the ruthless Grand Duke Orso has been locked in struggle with the League of Eight, themselves mired in infighting – for the past 19 years – with no signs of any rapprochement. Monza Murcatto, the feared mercenary in Orso’s employ becomes too popular for her employer’s liking and is thrown down a mountain… Miraculously, she survives but then as the title suggests, is more than ready to make her enemies pay."
+	},
+	{
+		"id": "22",
+		"title": "Peter and Max: a Fables novel",
+		"author": "Bill Willingham",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/PeterAndMax.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1401215734/mc.gif&client=natlibsingapore&upc=&oclc=316835986",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13374307",
+		"review": "Haven’t read the Eisner Award- winning comic series Fables? Not to worry. As the author points out, Peter and Max ‘is its own tale, autonomous and self-reliant’”Peter Piper (from the tongue-twisting nursery rhyme) and Max Piper (the Pied Piper of Hamlin) are brothers, and a series of momentous events results in an epic tale of sibling rivalry that comes to a stunning conclusion."
+	},
+	{
+		"id": "23",
+		"title": "The Hundred Thousand Kingdoms",
+		"author": "N K Jemisin",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheHundredThousandKingdoms.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1841498173/mc.gif&client=natlibsingapore&upc=&oclc=458733937",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13555107",
+		"review": "The Hundred Thousand Kingdoms pits the gods against mortals, and siblings against cousins. After a long epic war, the gods are oppressed by the mortals, and they must follow the humans’ biddings. Young Yeine Darr is caught right in the middle of it when she is named as one of the heirs to the throne."
+	},
+	{
+		"id": "24",
+		"title": "God of War: [the official novel of the thrilling video game]",
+		"author": "Matthew Woodring Stover and Robert E. Vardeman",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/GodOfWar.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=034550867X/mc.gif&client=natlibsingapore&upc=&oclc=503113760",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13680177",
+		"review": "God of War takes the reader on an action-packed adventure of epic proportions steeped in Greek mythology. Cursed by recurring nightmares for an unpardonable sin he committed in his thirst for power, the fearsome Spartan warrior Kratos now seeks redemption by serving the Greek gods. His latest task takes him from the majestic city of Athens, through the scorching Desert of Lost Souls and even to the infernal depths of hell to seek a legendary weapon to stop Ares, the God of War. Success means the end of his nightmares but do the gods have other intentions for him?"
+	},
+	{
+		"id": "25",
+		"title": "The Spirit Lens: A Novel of the Collegia Magica",
+		"author": "Carol Berg",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheSpiritLens.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0451463730/mc.gif&client=natlibsingapore&upc=&oclc=697485457",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13765596",
+		"review": "An attempted assassination on the King of Sabria seems to point towards the Queen’s doing but beneath the surface, it hints at a more sinister plan that may throw the entire kingdom into turmoil. A magical spyglass – found on the body of the dead assassin – shows the horrific scenes of Ixtador’s Ten Gates to those who looked through it. How is everything linked?"
 	}
 ]
