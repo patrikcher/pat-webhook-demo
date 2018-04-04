@@ -38,6 +38,13 @@ if($method == 'POST'){
 				'Would you like me to read another review?</speak>';
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
+			unset($bookReviewsJson[$num]);
+			
+			break;
+			
+		case ($text == 'repeat' || $text == 'again'):
+			$readReviews = [];
+		
 			break;
 
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
