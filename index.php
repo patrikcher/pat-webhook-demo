@@ -39,12 +39,6 @@ if($method == 'POST'){
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
 			break;
-			
-		case ($text == 'repeat'):
-			$speech = $speech;
-			$display = $display . ' repeat chosen';
-			
-			break;
 		
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
 			$speech = 'Goodbye, come again soon.';
