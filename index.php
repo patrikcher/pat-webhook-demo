@@ -42,7 +42,7 @@ if($method == 'POST'){
 			
 		case ($text == 'repeat'):
 			$speech = $speech;
-			$display = $display;
+			$display = $display . ' repeat chosen';
 			
 			break;
 		
