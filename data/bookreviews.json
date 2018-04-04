@@ -313,5 +313,86 @@
 		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781906838331/mc.gif&client=natlibsingapore&upc=&oclc=751524035",
 		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200153435",
 		"review": "1919: the defeated Austro-Hungarian Empire is losing control of the city port of Fiume to pirates. A self-styled Pirate King, Gabriele d'Annunzio (poet, Italian war hero and Dadaist) storms the city with 3,000 loyal Italian footsoldiers. He declares Fiume a free Republic: a utopian city-state, with himself as Commander. The city soon descends into looting and surreal decadence, reminiscent of the last days of Rome."
+	},
+	{
+		"id": "36",
+		"title": "The Alchemist: A Graphic Novel",
+		"author": "Paulo Coelho",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheAlchemist.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0007423209/mc.gif&client=natlibsingapore&upc=&oclc=774786122",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14292374",
+		"review": "An adaptation in graphic novel format of a modern classic about the globe-trotting spiritual journey of a humble shepherd boy."
+	},
+	{
+		"id": "37",
+		"title": "The Queen's English : An A to Zed Guide to Distinctively British Words",
+		"author": "C. J. Moore",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheQueenEnglish.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1606523252/mc.gif&client=natlibsingapore&upc=&oclc=694829647",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14224971",
+		"review": "If you are thinking of visiting the land of the English, you might want to get your hands on this book first. Otherwise, the lack of knowledge might leave you baffled when you receive a bag of french fries after ordering chips! Wondering what you should say to get a bag of chips? Well, over there, they call it ‘crisp’."
+	},
+	{
+		"id": "38",
+		"title": "The Chicktionary: From A-Line to Z-Snap, the Words Every Woman Should Know",
+		"author": "Anna Lefler",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheChicktionary.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1440529841/mc.gif&client=natlibsingapore&upc=&oclc=731912725",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14248265",
+		"review": "Did you know that 'Aunt Flo' is a funny nickname for your period? How about 'biffle' which is a shortened term for best friend for life? Or did you know that a 'frenemy' is someone in your group of friends that you actually love to hate? These words are followed by many more in Anna Lefler's Chicktionary. Many of the definitions here are guaranteed to bring you to tears; in laughter."
+	},
+	{
+		"id": "39",
+		"title": "The Banned List: A Manifesto Against Jargon and Cliché",
+		"author": "John Rentoul",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheBannedList.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1907642420/mc.gif&client=natlibsingapore&upc=&oclc=751805717",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14224373",
+		"review": "The Banned List consists of a list of clichés and jargon compiled by creator John Rentoul with an elaborate (and humorous) introduction detailing how common these words/phrases are overused. Some examples are: ‘epic fail’, ‘level up’, ‘killer app’ and ‘stakeholder’. The author’s dislike for stock phrases led him to create a banned list in 2008 – these words are listed alphabetically in the book."
+	},
+	{
+		"id": "40",
+		"title": "Recycled Home: Transform Your Home Using Salvaged Materials",
+		"author": "Rebecca Proctor",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/RecylcedHome.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1856698963/mc.gif&client=natlibsingapore&upc=&oclc=808425561",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14604979",
+		"review": "Learn how to “turn old books into eye-catching wall paper” or “revive a tired lampshade with a fresh cover”. Sounds exciting? Check out this book of creative craft projects to decorate your home with style! The book features 50 projects made from recycled materials so you can do your bit for the environment. Each project is accompanied with easy to follow step-by-step instructions. With a wide range of projects, from sewing to woodwork and paper crafts, you are bound to find something that caters to your interest."
+	},
+	{
+		"id": "41",
+		"title": "Ball of Confusion: Puzzles, Problems & Perplexing Posers ",
+		"author": "Johnny Ball",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BallOfConfusion.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1848313489/mc.gif&client=natlibsingapore&upc=&oclc=751745070",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14285559",
+		"review": "Exercise your brain by indulging in mind benders! For a start, try out the following puzzle titled: Old before his time? ‘A chap once said to me, “The day before yesterday I was 19 and next year I’ll be 22.” On what day was he born and when did he make the statement? Find the answer in this book together with more brain-twisters that will keep you entertained for hours."
+	},
+	{
+		"id": "42",
+		"title": "Outside the Box Origami: A New Generation of Extraordinary Folds",
+		"author": "Scott Wasserman Stern",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/OutsideTheBoxOrigami.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0804841519/mc.gif&client=natlibsingapore&upc=&oclc=654312865",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13768535",
+		"review": "Been folding cranes, airplanes and jumping frogs for a while? Ready to take the next step: this book will blow you away with more creative designs! All you need is a piece of paper and your hands of course: we can assure you that you will literally be ‘folding outside the box’!"
+	},
+	{
+		"id": "43",
+		"title": "The Big Green Book of Recycled Crafts",
+		"author": "Susan White Sullivan",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheBigGreenBook.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1601401477/mc.gif&client=natlibsingapore&upc=&oclc=294884808",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13220812",
+		"review": "Ever wondered what to do with empty CD cases? Give them a new lease of life by crafting them into photo frames! Simply trim your picture to fit the dimension of the CD case before inserting it into the front cover. You can even use ribbons to embellish your photo frame."
+	},
+	{
+		"id": "44",
+		"title": "Terrarium Craft: Create 50 magical, miniature worlds",
+		"author": "Amy Bryant Aiello and Kate Bryant",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TerrariumCraft.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781604692341/mc.gif&client=natlibsingapore&upc=&oclc=666223979",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14247407",
+		"review": "Don’t always think you need a green thumb to create a beautiful garden in your home. Try your hands at making a terrarium – a miniature garden where small plants are housed in a transparent container, usually a glass jar or plastic bottle, along with some sand, pebbles and decorative ornaments."
 	}
 ]
