@@ -39,6 +39,14 @@ if($method == 'POST'){
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
 			break;
+		
+		case ($text == 'repeat' || $text == 'again'):
+			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
+				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
+				'Would you like me to read another review?</speak>';
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
+			
+			break;
 
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
 			$speech = 'Goodbye, come again soon.';
