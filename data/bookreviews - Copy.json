@@ -1,0 +1,398 @@
+[
+	{
+		"id": "1", 
+		"title": "Black Panther: Who is Black Panther?", 
+		"author": "Reginald Hudin", 
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BlackPanther.mp3", 
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/0785197990%20(paperback)", 
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=201328171", 
+		"review": "If you thought Black Panther the movie was fantastic, you might want to check out the groundbreaking comics behind it. Marvel’s first black comic hero, Black Panther, was first created in 1966 and introduced in issue 52 of Fantastic Four. That’s over 50 years’ worth of comics to catch up on! To bring you up to speed, we recommend borrowing ‘Black Panther: Who is the Black Panther?’. Released by Marvel Comics in 2018, this collection brings together the various comics featuring Black Panther in one book. The story traces the origins of a warrior-king Black Panther, also known as T'Challa, who governs Wakanda, a fictional African nation. Black Panther is put to the test when a powerful enemy attacks Wakanda."
+	},
+	{
+		"id": "2", 
+		"title": "From the Belly of the Cat", 
+		"author": "Stephanie Ye", 
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/From%20the%20Belly%20of%20the%20Cat.mp3", 
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/9789810776565%20(paperback)", 
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200181887", 
+		"review": "'From the Belly of the Cat' is a delightful collection of 15 feline-themed short stories. Discover our sunny island through the works of these authors and walk in the paws of our furry friends. Some stories you’ll find in the collection are 'The Cat Auntie of Lengkok Bahru', 'Other people’s cats', and 'The fat cat, ate dad’s hat'. For the most cat-hartic experience, we recommend snuggling up to this book on a rainy afternoon, with a cup of tea, and a cat by your side."
+	},
+	{
+		"id": "3", 
+		"title": "Wonder Boys", 
+		"author": "Michael Chabon", 
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/WonderBoys.mp3", 
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/0812979214%20(trade%20pbk.)", 
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13173221", 
+		"review": "If you’ve ever gone through the stress of a writing programme, you’ll relate to ‘Wonder Boys’ by Michael Chabon. Hilarious and heart-breaking, Wonder Boys takes us on a journey with Grady, an ageing writer. Once a literary phenomenon, he is now struggling with a behemoth of a novel meant to be his magnum opus. Plus it doesn’t help that Grady’s personal life seems to be unravelling too. It’s a situation he has brought upon himself due to his lack of discipline and uncontrollable need for thrills and chills that ranges from drugs to love affairs."
+	},
+	{
+		"id": "4",
+		"title": "Bloody Horowitz",
+		"author": "Anthony Horowitz",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BloodyHorowitz.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=039925451X/mc.gif&client=natlibsingapore&upc=&oclc=471815801",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3321375/4869202,1",
+		"review": "Bloody Horowitz is a collection of gruesome, gory, bone-chilling, and of course bloody stories packed into a single thrilling read. Whether it is supernatural forces, murder, or diseases found in science fiction books, this book has it all. A phantom snake? Check. Human barbecue? Check. Game shows where you either die or become a millionaire? Check."
+	},
+	{
+		"id": "5",
+		"title": "Champion",
+		"author": "Marie Lu",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Champion.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780399256776/mc.gif&client=natlibsingapore&upc=&oclc=855507153",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3324620/44294313,1",
+		"review": "It all started with a dangerous plague spreading around The Republic. June Iparis had nothing to worry about. She was an elite; she had money, status and plague cures to last a lifetime. However, that all changed when she met Day. Her allegiance to her beloved government started to waiver when she discovered just how dark and corrupted it was. Working with Day, she must now stop the plague from spreading whilst, preventing themselves from getting infected. This book is very interesting and action-packed. I would absolutely love to be in June’s shoes; her life is always so eventful and amazing."
+	},
+	{
+		"id": "6",
+		"title": "The Ghost of Graylock",
+		"author": "Dan Poblocki",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheGhostofGraylock.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0545402689/mc.gif&client=natlibsingapore&upc=&oclc=769991476",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=The+Ghost+of+Graylock+&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=The+Ghost+of+Graylock+&SORTS=SQL_REL_TITLE",
+		"review": "3 storms. 3 blackouts. 3 children found drowned in the same lake in Graylock Hall, a psychiatric hospital. The nurse, who worked the shift when the children died, was arrested. The following day, she was found dead. Years later, Neil Cady, Bree Cady, Wesley Baptiste and Eric Baptiste decide to visit the abandoned hospital to explore its secrets. They experience strange situations in the building and Neil gets hurt. After leaving the hospital, Neil and Bree have bad nightmares and Neil starts seeing the same 3 pictures. Did the ghost of Nurse Janet follow Neil home or is it someone else?"
+	},
+	{
+		"id": "7",
+		"title": "Haunting Violet",
+		"author": "Alyxandra Harvey",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/HauntingViolet.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=080279839X/mc.gif&client=natlibsingapore&upc=&oclc=664450564",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3335494/5345620,1",
+		"review": "Violet’s mother, Celeste Willoughby, is a medium, or so it seems. People enlist her help to communicate with their deceased family member, friend etcetera. One trip to Rosefield changes their life – Celeste is exposed as a fraudulent medium and together with Violet, Colin and Marjorie, they flee back to their home in London. People threw stinking produce at their doorsteps – rotten cabbage, squashed radishes, pie crust, mouldy cheese. You name it, they throw it. Rowena, a deceased girl, counts on Violet, who can see her, to expose her murderer. With a murder case to solve, relationship problems to handle and a new, extremely terrifying ability to see the dead, can Violet cope?"
+	},
+	{
+		"id": "8",
+		"title": "Coping with Chloe",
+		"author": "Rosalie Warren",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/CopingWithChloe.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781907912023/mc.gif&client=natlibsingapore&upc=&oclc=743472435",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=coping+with+chloe&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=coping+with+chloe&SORTS=SQL_REL_TITLE",
+		"review": "The book is about Chloe and Anna who are twins. They share everything from secrets to clothes, from fending off the school bully to dealing with their parents’ separation. Even Chloe’s terrible accident hasn’t split them apart. A new boy came to their class and the boy’s name is Joe. Anna and Chloe’s father has a girlfriend called Nikki. They want their father to be with them and not to be with his girlfriend. Chloe had an accident because a lorry hit her. What do you guys think the end will be? What will Anna do after the accident? After all, twins have a special bond right?"
+	},
+	{
+		"id": "9",
+		"title": "Dodger",
+		"author": "Terry Pratchett",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Dodger.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0385619278/mc.gif&client=natlibsingapore&upc=&oclc=794296182",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3417888/3606726,2",
+		"review": "Dodger is a typical rags to riches story told in a hilariously fresh way. Dodger is a tosher, someone who scavengers the sewers for lost money and valuables, in London. One day, he rescues a lady trying to get away from two men in a coach, and this starts his ascent into nobility. It turns out that this lady is the wife of an abusive foreign prince, and was trying to find her freedom in London. His story from then on takes him on a journey that crosses paths with the likes of Charles Dickens and Sweeney Todd. In the end, Dodger finally realises there is more to living than survival."
+	},
+	{
+		"id": "10",
+		"title": "The Giver",
+		"author": "Lois Lowry",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheGiver.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=078627154X/mc.gif&client=natlibsingapore&upc=&oclc=57563507",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3419919/216080046,1",
+		"review": "After sameness, a colourless equalitarian society is formed without memories and emotions and everyone follows rules established by the Chief Elder and the Elders. The population uses drugs to stay happy and on the day of the graduation, the teenagers leave their childhood and are assigned to a career chosen by the Elders. Jonas lives with his parents and sister and has two best friends, Fiona and Asher, and he feels different from his friends. He is assigned to be the Receiver of Memories and he is trained by his mentor, The Giver, who gives memories of the world before sameness. Jonas learns emotions such as love and fear and the concept of family. When he discovers that the baby Gabriel that he loves as a brother will be released, he decides to change his society but the Chief Elder will do anything to stop him."
+	},
+	{
+		"id": "11",
+		"title": "The Hunger Games (Book 1)",
+		"author": "Suzanne Collins",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheHungerGamesBook1.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780545599337/mc.gif&client=natlibsingapore&upc=&oclc=832260336",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3421440/59109818,2",
+		"review": "In a country known as Panem, there is a very rich City surrounded by twelve Districts. Every year, this City, known as The Capitol, controls all the Districts through something known as The Hunger Games! This is where two children, one boy and one girl from each district from the ages of twelve to eighteen, have to compete in The Hunger Games. It is aired on TV’s all over Panem. Katniss Everdeen, a sixteen-year-old from District 12, volunteers to take the place of her sister Prim after Prim’s name is called forth to compete in The 74th Hunger games."
+	},
+	{
+		"id": "12",
+		"title": "Percy Jackson and the Lightning Thief",
+		"author": "Rick Riordan",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/PercyJacksonAndTheLightningThief.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0786856297/mc.gif&client=natlibsingapore&upc=&oclc=60786141",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3432614/5977203,5",
+		"review": "Percy Jackson was just a normal kid, until he accidentally vaporized his math teacher. Percy later learns that he is the son of a God, Zeus. Zeus thought that Percy stole his lightning bolt and making Zeus angry was a very bad idea."
+	},
+	{
+		"id": "13",
+		"title": "The Tale of Despereaux",
+		"author": "Kate Dicamillo",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheTaleOfDespereaux.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0763625299/mc.gif&client=natlibsingapore&upc=&oclc=66462849",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3433623/4602773,6",
+		"review": "This book is of a fantasy setting, in a castle where there lived a King and his daughter, the princess. One way or another, Despereaux finds himself involved with humans in many situations in this adventurous and elegantly written plot by Kate Dicamillo. The whole of this story is very relatable to many people. The characters show interesting characteristics and it is intriguing to read about experiences the characters have gone through in the book that other people may have experienced in life."
+	},
+	{
+		"id": "14",
+		"title": "The BFG",
+		"author": "Roald Dahl",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheBFG.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780141343013/mc.gif&client=natlibsingapore&upc=&oclc=59475602",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3623509/5162496,9",
+		"review": "This book is about Sophie, a tiny girl who is captured by a giant in the middle of the night. The giant is four times as tall as the tallest human and Sophie thought she is going to end up as breakfast for the giant. Luckily, the giant is the only nice and jumbly giant in Giant Country. In fact, the Big Friendly Giant only eats snozzcumbers."
+	},
+	{
+		"id": "15",
+		"title": "Life moves pretty fast",
+		"author": "Hadley Freeman",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/LifeMovesPrettyFast.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781501130458/mc.gif&client=natlibsingapore&upc=&oclc=928481086",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=Life+moves+pretty+fast&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=Life+moves+pretty+fast&SORTS=SQL_REL_TITLE",
+		"review": "If you are a movie buff, “Life moves pretty fast” by Hadley Freeman will be a book right up your alley. A Vogue contributor and Guardian columnist, Hadley takes us through movies from the 80s in her book. To her, the 80s period is pivotal to the movie industry as it set the benchmark for perceptions of funniness, coolness and sexiness."
+	},
+	{
+		"id": "16",
+		"title": "Kampong spirit gotong royong : life in Potong Pasir, 1955 to 1965",
+		"author": "Josephine Chia",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/KampongSpirit.mp3",
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/9814398608%20(pbk.)",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=Kampong+spirit+gotong+royong+%3A+life+in+Potong+Pasir%2C+1955+to+1965&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=Kampong+spirit+gotong+royong+%3A+life+in+Potong+Pasir%2C+1955+to+1965&SORTS=SQL_REL_TITLE",
+		"review": "The book reflects kampong life in Potong Pasir as experienced by the author. Her memoir details the simplistic way of life, though deprived of modern comforts like electricity, running fresh water, multi-racial neighbours lived harmoniously with each other in attap villagers. The book depicts social and political events in Singapore’s pre-independence years."
+	},
+	{
+		"id": "17",
+		"title": "Inheritance : an anthology",
+		"author": "Marie Ee and Joy Chee",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Inheritance.mp3",
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/9789811149849",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=Inheritance+%3A+an+anthology+Marie+Ee+%26+Joy+Chee&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=Inheritance+%3A+an+anthology+Marie+Ee+%26+Joy+Chee&SORTS=SQL_REL_TITLE",
+		"review": "Launched at the Singapore Writers Festival in 2017, Inheritance is an anthology of poems by local publisher, Math Paper Press. From the narrative of names, the weight of love and relationships with family, the idea of home coming, Inheritance is a fresh collection of poems."
+	},
+	{
+		"id": "18",
+		"title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+		"author": "Hector Garcia and Francesc Miralles",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Ikigai.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780143130727/mc.gif&client=natlibsingapore&upc=&oclc=1001343363",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=Ikigai%3A+The+Japanese+Secret+to+a+Long+and+Happy+Life&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=Ikigai%3A+The+Japanese+Secret+to+a+Long+and+Happy+Life&SORTS=SQL_REL_TITLE",
+		"review": "What do the world’s longest living people, the Japanese, eat and drink? What are some proverbs they live by for a long life? Ikigai- a reason for living, is a book with practical examples of how to turn free time into opportunities for growth  (“perceiving significant skills” and “being free from distractions”). There are also actual interviews with centenarians: “I’m going to live to be a hundred! Of course I am! It’s a huge motivation for me”."
+	},
+	{
+		"id": "19",
+		"title": "The Name of the Rose",
+		"author": "Umberto Eco",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheNameOfTheRose.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0099466031/mc.gif&client=natlibsingapore&upc=&oclc=59316363",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/3599007/2364086,4",
+		"review": "Although published over two decades ago, The Name of the Rose continues to be a popular book worldwide, and in the public libraries. Written by the Italian semiotician and academic, Umberto Eco, the Name of the Rose was his debut novel. It is 1327 and Franciscan Friar William of Baskerville and novice monk, Adso, have just arrived in a Benedictine monastery in northern Italy. Upon their arrival, a monk dies under mysterious circumstances"
+	},
+	{
+		"id": "20",
+		"title": "Afterland",
+		"author": "Mai Der Vang",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Afterland.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1555977707/mc.gif&client=natlibsingapore&upc=&oclc=947147147",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=Afterland+Mai+Der+Vang&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=Afterland+Mai+Der+Vang&SORTS=SQL_REL_TITLE",
+		"review": "Winner of the 2017 Walt Whitman Award, Afterland is a dazzling collection of poetry by American-Hmong poet, Mai Der Vang. The poet writes of violence and ghosts of the dead and living with grace and strength of “starlight lattice, riding mudwinds at post-thunder”. To write about death, is to also write about the life and living, for “the dead cannot be reborn in metal”."
+	},
+	{
+		"id": "21",
+		"title": "Best Served Cold ",
+		"author": "Joe Abercrombie",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BestServedCold.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780575082465/mc.gif&client=natlibsingapore&upc=&oclc=316426135",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13352892",
+		"review": "In Styria, the ruthless Grand Duke Orso has been locked in struggle with the League of Eight, themselves mired in infighting – for the past 19 years – with no signs of any rapprochement. Monza Murcatto, the feared mercenary in Orso’s employ becomes too popular for her employer’s liking and is thrown down a mountain… Miraculously, she survives but then as the title suggests, is more than ready to make her enemies pay."
+	},
+	{
+		"id": "22",
+		"title": "Peter and Max: a Fables novel",
+		"author": "Bill Willingham",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/PeterAndMax.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1401215734/mc.gif&client=natlibsingapore&upc=&oclc=316835986",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13374307",
+		"review": "Haven’t read the Eisner Award- winning comic series Fables? Not to worry. As the author points out, Peter and Max ‘is its own tale, autonomous and self-reliant’”Peter Piper (from the tongue-twisting nursery rhyme) and Max Piper (the Pied Piper of Hamlin) are brothers, and a series of momentous events results in an epic tale of sibling rivalry that comes to a stunning conclusion."
+	},
+	{
+		"id": "23",
+		"title": "The Hundred Thousand Kingdoms",
+		"author": "N K Jemisin",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheHundredThousandKingdoms.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1841498173/mc.gif&client=natlibsingapore&upc=&oclc=458733937",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13555107",
+		"review": "The Hundred Thousand Kingdoms pits the gods against mortals, and siblings against cousins. After a long epic war, the gods are oppressed by the mortals, and they must follow the humans’ biddings. Young Yeine Darr is caught right in the middle of it when she is named as one of the heirs to the throne."
+	},
+	{
+		"id": "24",
+		"title": "God of War: [the official novel of the thrilling video game]",
+		"author": "Matthew Woodring Stover and Robert E. Vardeman",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/GodOfWar.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=034550867X/mc.gif&client=natlibsingapore&upc=&oclc=503113760",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13680177",
+		"review": "God of War takes the reader on an action-packed adventure of epic proportions steeped in Greek mythology. Cursed by recurring nightmares for an unpardonable sin he committed in his thirst for power, the fearsome Spartan warrior Kratos now seeks redemption by serving the Greek gods. His latest task takes him from the majestic city of Athens, through the scorching Desert of Lost Souls and even to the infernal depths of hell to seek a legendary weapon to stop Ares, the God of War. Success means the end of his nightmares but do the gods have other intentions for him?"
+	},
+	{
+		"id": "25",
+		"title": "The Spirit Lens: A Novel of the Collegia Magica",
+		"author": "Carol Berg",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheSpiritLens.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0451463730/mc.gif&client=natlibsingapore&upc=&oclc=697485457",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13765596",
+		"review": "An attempted assassination on the King of Sabria seems to point towards the Queen’s doing but beneath the surface, it hints at a more sinister plan that may throw the entire kingdom into turmoil. A magical spyglass – found on the body of the dead assassin – shows the horrific scenes of Ixtador’s Ten Gates to those who looked through it. How is everything linked?"
+	},
+	{
+		"id": "26",
+		"title": "Ysabel",
+		"author": "Guy Gavriel Kay",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Ysabel.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0007342039/mc.gif&client=natlibsingapore&upc=&oclc=495598185",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13700190",
+		"review": "Ned Marriner is spending six weeks with his father in Provence, where the celebrated photographer is shooting images of the Saint-Sauveur Cathedral for a glossy coffee-table book. An exploration of the shadowy interiors unearths a surprising discovery, and soon Ned is embroiled in a haunting tale of love, loss and sacrifice that reaches 2,500 years into the past."
+	},
+	{
+		"id": "27",
+		"title": "May Contain Traces of Magic",
+		"author": "Tom Holt",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/MayContainTracesOfMagic.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1841495069/mc.gif&client=natlibsingapore&upc=&oclc=495597544",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13604340",
+		"review": "Mild-mannered sales representative Chris Popham spends his days peddling magical products such as portable parking spaces, the inexplicably popular dried water (“Just add…”) and books capable of telling you exactly what you need to know. But then Chris discovers that his navigation device (‘SatNav’) is really an imprisoned soul who will do anything it can to get free. What follows is a hilariously bewildering adventure peppered with Holt’s characteristic brand of wacky humour."
+	},
+	{
+		"id": "28",
+		"title": "Kurt Busiek's Astro City: The Tarnished Angel",
+		"author": "Kurt Busiek",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/KurtBusiek.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781563896538/mc.gif&client=natlibsingapore&upc=&oclc=45176326",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=10090566",
+		"review": "Steeljak, the Steel-Jacketed Man, is paroled from prison and sets off in search of a peaceful life, until his past begins to catch up with him."
+	},
+	{
+		"id": "29",
+		"title": "Whatever Happened to the Caped Crusader?",
+		"author": "Neil Gaiman",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/WhateverHappened.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1401227244/mc.gif&client=natlibsingapore&upc=&oclc=462880925",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13696909",
+		"review": "Both friends and enemies of the deceased Batman gather around his coffin and tell their different stories of the Batman they once knew."
+	},
+	{
+		"id": "30",
+		"title": "Batman: The Dark Knight Returns",
+		"author": "Frank Miller",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BatmanTheDarkKnightReturns.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=156389341X/mc.gif&client=natlibsingapore&upc=&oclc=51289169",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13655959",
+		"review": "Ten years after his retirement, a troubled Batman returns to the streets, evening the score with criminals in an increasingly violent manner, which brings trouble from the police and a gang called the Mutants and a conflict with Superman."
+	},
+	{
+		"id": "31",
+		"title": "August Moon",
+		"author": "Diana Thung",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/AugustMoon.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781603090698/mc.gif&client=natlibsingapore&upc=&oclc=809563990",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200160952",
+		"review": "The townspeople of Calico believe in the legend of the Soul Fire – orbs of light dancing through the night sky, believed to be the souls of dead ancestors watching over the town. But when eleven-year-old Fiona Gan comes to town with her dad, she learns the amazing truth: these fireballs are actually the light from lanterns carried by mysterious rabbit like creatures as they leap across rooftops. Leaping with them is the peculiar street boy Jaden, who rarely speaks and claims to come from the moon. But the games may be coming to an end when a creepy corporation starts bulldozing the nearby forests."
+	},
+	{
+		"id": "32",
+		"title": "Camelot 3000",
+		"author": "Mike W.Barr and Brian Bolland",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Camelot3000.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=140121942X/mc.gif&client=natlibsingapore&upc=&oclc=216937462",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13233560",
+		"review": "Based on the legend of King Arthur, the prophecy states that King Arthur would be back when England needs him and the time is now! Set in the year 3000, Earth is in danger of being invaded by aliens, the one TRUE king, Arthur will need all the help that he can get from Merlin and his reincarnated Knights of the Round Table to unite the planet."
+	},
+	{
+		"id": "33",
+		"title": "Beta Testing the Apocalypse",
+		"author": "Tom Kaczynski",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BetaTestingTheApocalypse.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781606995419/mc.gif&client=natlibsingapore&upc=&oclc=755704934",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200145007",
+		"review": "The book has 10 short stories, most notably "The New". "The New" is set in an unnamed third-world megalopolis. It could be Dhaka, Lagos, or Mumbai. The city creaks under the pressure of explosive growth. Whole districts are built in a week. The story follows a renowned starchitect as he struggles to impose his vision on the metropolis. A vision threatened by the massive dispossessed slum-proletariat inhabiting the slums on the edges of the city. From the fetid ferment of garbage dumps and shanties emerges a new feral architecture."
+	},
+	{
+		"id": "34",
+		"title": "Soldier Zero. Volume One",
+		"author": "Stan Lee, Paul Cornell, Javier Pina, Sergio Ariño, Alfred Rockefeller, Archie Van Buren and Ed Dukeshire",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/SoldierZero.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1608860477/mc.gif&client=natlibsingapore&upc=&oclc=687666854",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14003284",
+		"review": "Having lost his legs during the Afghanistan War, Capt. Stewart Trautmann returned stateside with an understandingly negative attitude towards combat and violence, but his convictions are put to the test when a devastating meteor shower brings an alien parasite that transforms him into the ultimate weapon."
+	},
+	{
+		"id": "35",
+		"title": "Black Paths",
+		"author": "David B",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BlackPaths.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781906838331/mc.gif&client=natlibsingapore&upc=&oclc=751524035",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=200153435",
+		"review": "1919: the defeated Austro-Hungarian Empire is losing control of the city port of Fiume to pirates. A self-styled Pirate King, Gabriele d'Annunzio (poet, Italian war hero and Dadaist) storms the city with 3,000 loyal Italian footsoldiers. He declares Fiume a free Republic: a utopian city-state, with himself as Commander. The city soon descends into looting and surreal decadence, reminiscent of the last days of Rome."
+	},
+	{
+		"id": "36",
+		"title": "The Alchemist: A Graphic Novel",
+		"author": "Paulo Coelho",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheAlchemist.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0007423209/mc.gif&client=natlibsingapore&upc=&oclc=774786122",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14292374",
+		"review": "An adaptation in graphic novel format of a modern classic about the globe-trotting spiritual journey of a humble shepherd boy."
+	},
+	{
+		"id": "37",
+		"title": "The Queen's English : An A to Zed Guide to Distinctively British Words",
+		"author": "C. J. Moore",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheQueenEnglish.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1606523252/mc.gif&client=natlibsingapore&upc=&oclc=694829647",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14224971",
+		"review": "If you are thinking of visiting the land of the English, you might want to get your hands on this book first. Otherwise, the lack of knowledge might leave you baffled when you receive a bag of french fries after ordering chips! Wondering what you should say to get a bag of chips? Well, over there, they call it ‘crisp’."
+	},
+	{
+		"id": "38",
+		"title": "The Chicktionary: From A-Line to Z-Snap, the Words Every Woman Should Know",
+		"author": "Anna Lefler",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheChicktionary.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1440529841/mc.gif&client=natlibsingapore&upc=&oclc=731912725",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14248265",
+		"review": "Did you know that 'Aunt Flo' is a funny nickname for your period? How about 'biffle' which is a shortened term for best friend for life? Or did you know that a 'frenemy' is someone in your group of friends that you actually love to hate? These words are followed by many more in Anna Lefler's Chicktionary. Many of the definitions here are guaranteed to bring you to tears; in laughter."
+	},
+	{
+		"id": "39",
+		"title": "The Banned List: A Manifesto Against Jargon and Cliché",
+		"author": "John Rentoul",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheBannedList.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1907642420/mc.gif&client=natlibsingapore&upc=&oclc=751805717",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14224373",
+		"review": "The Banned List consists of a list of clichés and jargon compiled by creator John Rentoul with an elaborate (and humorous) introduction detailing how common these words/phrases are overused. Some examples are: ‘epic fail’, ‘level up’, ‘killer app’ and ‘stakeholder’. The author’s dislike for stock phrases led him to create a banned list in 2008 – these words are listed alphabetically in the book."
+	},
+	{
+		"id": "40",
+		"title": "Recycled Home: Transform Your Home Using Salvaged Materials",
+		"author": "Rebecca Proctor",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/RecylcedHome.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1856698963/mc.gif&client=natlibsingapore&upc=&oclc=808425561",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14604979",
+		"review": "Learn how to “turn old books into eye-catching wall paper” or “revive a tired lampshade with a fresh cover”. Sounds exciting? Check out this book of creative craft projects to decorate your home with style! The book features 50 projects made from recycled materials so you can do your bit for the environment. Each project is accompanied with easy to follow step-by-step instructions. With a wide range of projects, from sewing to woodwork and paper crafts, you are bound to find something that caters to your interest."
+	},
+	{
+		"id": "41",
+		"title": "Ball of Confusion: Puzzles, Problems & Perplexing Posers ",
+		"author": "Johnny Ball",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/BallOfConfusion.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1848313489/mc.gif&client=natlibsingapore&upc=&oclc=751745070",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14285559",
+		"review": "Exercise your brain by indulging in mind benders! For a start, try out the following puzzle titled: Old before his time? ‘A chap once said to me, “The day before yesterday I was 19 and next year I’ll be 22.” On what day was he born and when did he make the statement? Find the answer in this book together with more brain-twisters that will keep you entertained for hours."
+	},
+	{
+		"id": "42",
+		"title": "Outside the Box Origami: A New Generation of Extraordinary Folds",
+		"author": "Scott Wasserman Stern",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/OutsideTheBoxOrigami.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=0804841519/mc.gif&client=natlibsingapore&upc=&oclc=654312865",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13768535",
+		"review": "Been folding cranes, airplanes and jumping frogs for a while? Ready to take the next step: this book will blow you away with more creative designs! All you need is a piece of paper and your hands of course: we can assure you that you will literally be ‘folding outside the box’!"
+	},
+	{
+		"id": "43",
+		"title": "The Big Green Book of Recycled Crafts",
+		"author": "Susan White Sullivan",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheBigGreenBook.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1601401477/mc.gif&client=natlibsingapore&upc=&oclc=294884808",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=13220812",
+		"review": "Ever wondered what to do with empty CD cases? Give them a new lease of life by crafting them into photo frames! Simply trim your picture to fit the dimension of the CD case before inserting it into the front cover. You can even use ribbons to embellish your photo frame."
+	},
+	{
+		"id": "44",
+		"title": "Terrarium Craft: Create 50 magical, miniature worlds",
+		"author": "Amy Bryant Aiello and Kate Bryant",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TerrariumCraft.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781604692341/mc.gif&client=natlibsingapore&upc=&oclc=666223979",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14247407",
+		"review": "Don’t always think you need a green thumb to create a beautiful garden in your home. Try your hands at making a terrarium – a miniature garden where small plants are housed in a transparent container, usually a glass jar or plastic bottle, along with some sand, pebbles and decorative ornaments."
+	}
+]
