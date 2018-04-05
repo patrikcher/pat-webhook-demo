@@ -72,7 +72,7 @@ if($method == 'POST'){
 			"subtitle"=> $author,
 			"image"=> [
 				"url"=> $thumbnail,
-				"accessibilityText"=> "Thumbnail for " + $title
+				"accessibilityText"=> "Thumbnail for " . $title
 			],
 			//"formattedText"=> 'Text for card',
 			"formattedText"=> $review,
