@@ -72,7 +72,7 @@ if($method == 'POST'){
 			"subtitle"=> $author,
 			"image"=> [
 				"url"=> $thumbnail,
-				"accessibility_text"=> 'Thumbnail for ' . $title
+				"accessibility_text"=> "Thumbnail for " . $title
 			],
 			//"formattedText"=> 'Text for card',
 			"formattedText"=> $review,
@@ -84,15 +84,6 @@ if($method == 'POST'){
 					]
 				]
 			]
-		)
-	);
-	
-	array_push($messages, array(
-			"type"=> "suggestion",
-			"platform"=> "google",
-			
-			"title"=> "Next",
-			"title"=> "Stop"
 		)
 	);
 	
