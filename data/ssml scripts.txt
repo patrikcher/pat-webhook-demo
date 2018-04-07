@@ -162,7 +162,7 @@ Ikigai: The Japanese Secret to a Long and Happy Life
 <break time="1s"/>
 <s>(If you are wondering, one of the food items the Japanese eat for vitality is the bitter melon.</s><s>Find out what the rest are!)</s>
 <break time="1s"/>
-<s>‘Ikigai: The Japanese Secret to a Long and Happy Life” by Hector Garcia and Francesc Miralles can be found at libraries under this Call number English <say-as interpret-as="characters">613 GAR -[HEA]</say-as></s>
+<s>‘Ikigai: The Japanese Secret to a Long and Happy Life” by Hector Garcia and Francesc Miralles can be found at libraries under this Call number English <say-as interpret-as="characters">613 GAR - HEA</say-as></s>
 
 
 
