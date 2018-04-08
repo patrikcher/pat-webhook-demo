@@ -53,7 +53,7 @@ if($method == 'POST'){
 			break;
 	}
 	
-	if($text["result"]["resolvedQuery"] == 'Repeat'){
+	if($json["result"]["resolvedQuery"] == 'Repeat'){
 		$speech = 'Repeat selected';
 		$display = $speech;
 	}
