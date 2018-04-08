@@ -9,7 +9,7 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 
 	$text = $json->result->parameters->text;
-	$action = $json->result->action;
+	$resolvedQuery = $json->result->resolvedQuery;
 	
 	$bookReviews = file_get_contents('./data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
@@ -54,7 +54,7 @@ if($method == 'POST'){
 			break;
 	}
 	
-	if($action == 'Repeat'){
+	if($resolvedQuery == 'repeat'){
 		$speech = 'Repeat selected';
 		$display = $speech;
 	}
