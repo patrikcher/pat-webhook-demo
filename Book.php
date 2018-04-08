@@ -3,7 +3,7 @@ class Book {
 	private $id, $title, $author, $thumbnail, $bookurl, $review, $filepath;
 	
 	public function __construct($id = '0', $title = '0', $author = '0', $thumbnail = '0', $bookurl = '0', $review = '0', $filepath = '0') {
-		$this->setBook($id, $title, $author, $thumbnail, $bookulr, $review, $filepath);
+		$this->setBook($id, $title, $author, $thumbnail, $bookurl, $review, $filepath);
 		echo 'Constructed an instance of ', __CLASS__, ' with value ', $this, ".\n";
 	}
 	
