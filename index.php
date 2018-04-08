@@ -8,22 +8,12 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 
 	$text = $json->result->parameters->text;
-	$action = $json->result->action;
 	
 	$bookReviews = file_get_contents('./data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
 	
 	// array to store messages
 	$messages=[];
-	
-	if ($action == 'General.General-previous') {
-		$speech = 'Previous selected. I am supposed to read previous something.';
-		$display = $speech;
-	}
-	else if ($action == 'General.General-next') {
-		$speech = 'Next selected. I am supposed to read next something.';
-		$display = $speech;
-	}
 
 	switch ($text) {
 		case 'hi':
@@ -46,12 +36,6 @@ if($method == 'POST'){
 				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
 				'Would you like me to read another review?</speak>';
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
-			
-			break;
-			
-		case ($text == 'previous'):
-			$speech = 'Previous selected. I am supposed to read previous something.';
-			$display = $speech;
 			
 			break;
 		
