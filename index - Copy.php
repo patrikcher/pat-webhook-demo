@@ -2,19 +2,6 @@
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-function getBook($num, $bookReviewsJson) {
-	$bookObj = new Book();
-	$bookObj->id=$num;
-	$bookObj->title=$bookReviewsJson[$num]['title'];
-	$bookObj->filepath=$bookReviewsJson[$num]['filepath'];
-	$bookObj->thumbnail=$bookReviewsJson[$num]['thumbnail'];
-	$bookObj->bookurl=$bookReviewsJson[$num]['bookurl'];
-	$bookObj->author=$bookReviewsJson[$num]['author'];
-	$bookObj->review=$bookReviewsJson[$num]['review'];
-	
-	return $bookObj;
-}
-
 // Process only when method is POST
 if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
@@ -40,8 +27,6 @@ if($method == 'POST'){
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(0, count($bookReviewsJson)-1);
 			
-			$book = getBook($num, $bookReviewsJson);
-			
 			$title = $bookReviewsJson[$num]['title'];
 			$filepath = $bookReviewsJson[$num]['filepath'];
 			$thumbnail = $bookReviewsJson[$num]['thumbnail'];
@@ -52,7 +37,7 @@ if($method == 'POST'){
 			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
 				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
 				'Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?' . ' ' . $book['title'];
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
 			break;
 		
