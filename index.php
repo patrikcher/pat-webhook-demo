@@ -35,6 +35,8 @@ if($method == 'POST'){
 			$author = $bookReviewsJson[$num]['author'];
 			$review = $bookReviewsJson[$num]['review'];
 			
+			$book = new Book($num, $title, $filepath, $thumbnail, $bookurl, $author, $review);
+			
 			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
 				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
 				'Would you like me to read another review?</speak>';
