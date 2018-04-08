@@ -31,12 +31,12 @@ if($method == 'POST'){
 			
 			$book = getBookDetails($num);
 			
-			$speech = '<speak>' . $book['title'] . ' written by ' . $book['author'] . '<break time="2s"/>' . 
+			/* $speech = '<speak>' . $book['title'] . ' written by ' . $book['author'] . '<break time="2s"/>' . 
 				'<audio src="' . $book['filepath'] . '"><desc>' . $book['title'] . '</desc>I did not manage to get your book review.</audio>' . 
 				'Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $book['title'] . '. Would you like me to read another review?';
+			$display = 'Now reading book review for ' . $book['title'] . '. Would you like me to read another review?'; */
 			
-/*  			$title = $bookReviewsJson[$num]['title'];
+			$title = $bookReviewsJson[$num]['title'];
 			$filepath = $bookReviewsJson[$num]['filepath'];
 			$thumbnail = $bookReviewsJson[$num]['thumbnail'];
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
@@ -46,7 +46,7 @@ if($method == 'POST'){
 			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
 				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
 				'Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';	 */
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 		
 			break;
 		
@@ -76,7 +76,7 @@ if($method == 'POST'){
 			"displayText" => $display
 		)
 	);
-	/* 
+	
 	// build card for selected book title
 	array_push($messages, array(
 			"type"=> "basic_card",
@@ -100,7 +100,7 @@ if($method == 'POST'){
 				]
 			]
 		)
-	); */
+	);
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
