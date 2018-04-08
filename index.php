@@ -59,13 +59,13 @@ if($method == 'POST'){
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
+	//$response->speech = $speech;
+	//$response->displayText = $display;
+	$response->messages = $messages;
 	
 	sendMessage($speech, $display);
 	printCard($title, $author, $thumbnail, $review, $bookurl);
 	
-	//$response->speech = $speech;
-	//$response->displayText = $display;
-	$response->messages = $messages;
 	$response->contextOut = array();
 	echo json_encode($response);
 }
