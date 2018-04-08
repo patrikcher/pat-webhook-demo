@@ -9,6 +9,7 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 
 	$text = $json->result->parameters->text;
+	$action = $json->result->action;
 	
 	$bookReviews = file_get_contents('./data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
@@ -51,6 +52,11 @@ if($method == 'POST'){
 			$display = $speech;
 			
 			break;
+	}
+	
+	if ($action == 'General.General-repeat') {
+		$speech = 'Repeat was selected. I am going to repeat here.';
+		$display = $speech;
 	}
 	
 	// push initial messages of selected book title
