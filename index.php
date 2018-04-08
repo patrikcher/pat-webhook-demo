@@ -61,7 +61,7 @@ if($method == 'POST'){
 		$display = $speech;
 	}
 	
-	// push initial messages of selected book title
+/* 	// push initial messages of selected book title
 	array_push($messages, array(
 			"type"=> "simple_response",
 			"platform" => "google",
@@ -101,7 +101,7 @@ if($method == 'POST'){
 	//$response->displayText = $display;
 	$response->messages = $messages;
 	$response->contextOut = array();
-	echo json_encode($response);
+	echo json_encode($response); */
 }
 else
 {
@@ -154,6 +154,14 @@ function getBookDetails($num) {
 			]
 		)
 	);
+	
+	$response = new \stdClass();
+	$response->source = "webhook";
+	//$response->speech = $speech;
+	//$response->displayText = $display;
+	$response->messages = $messages;
+	$response->contextOut = array();
+	echo json_encode($response);
 }
 
 ?>
