@@ -76,31 +76,31 @@ if($method == 'POST'){
 			"displayText" => $display
 		)
 	);
-	
+	/* 
 	// build card for selected book title
 	array_push($messages, array(
 			"type"=> "basic_card",
 			"platform"=> "google",
 	
 			// options for cards
-			"title"=> $book['title'],
-			"subtitle"=> $book['author'],
+			"title"=> $title,
+			"subtitle"=> $author,
 			"image"=> [
-				"url"=> $book['thumbnail'],
-				"accessibilityText"=> "Thumbnail for " . $book['title']
+				"url"=> $thumbnail,
+				"accessibilityText"=> "Thumbnail for " . $title
 			],
 			//"formattedText"=> 'Text for card',
-			"formattedText"=> $book['review'],
+			"formattedText"=> $review,
 			"buttons"=> [
 				[
 					"title"=> "View in NLB Catalogue",
 					"openUrlAction"=> [
-						"url"=> $book['bookurl']
+						"url"=> $bookurl
 					]
 				]
 			]
 		)
-	);
+	); */
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
