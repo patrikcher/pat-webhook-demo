@@ -53,6 +53,11 @@ if($method == 'POST'){
 			break;
 	}
 	
+	if($text["result"]["action"] == "Repeat"){
+		$speech = 'Repeat selected';
+		$display = $speech;
+	}
+	
 	// push initial messages of selected book title
 	array_push($messages, array(
 			"type"=> "simple_response",
