@@ -3,12 +3,6 @@ require_once 'Book.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-function getBook($num, $bookReviewsJson):Book {
-	$bookObj = new Book();
-	
-	return $bookObj;
-}
-
 // Process only when method is POST
 if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
