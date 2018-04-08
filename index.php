@@ -2,7 +2,7 @@
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-function getBook($num, $bookReviewsJson) {
+function getBook($num, $bookReviewsJson):Book {
 	$bookObj = new Book();
 	$bookObj->id=$num;
 	$bookObj->title=$bookReviewsJson[$num]['title'];
