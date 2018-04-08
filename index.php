@@ -91,7 +91,7 @@ if($method == 'POST'){
 	$response->source = "webhook";
 	//$response->speech = $speech;
 	//$response->displayText = $display;
-	$response->messages = $messages;	
+	$response->messages = $messages;
 	$response->contextOut = array();
 	echo json_encode($response);
 }
@@ -99,4 +99,5 @@ else
 {
 	echo "Method not allowed";
 }
+
 ?>
