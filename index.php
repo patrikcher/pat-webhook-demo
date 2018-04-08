@@ -48,6 +48,12 @@ if($method == 'POST'){
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
 			break;
+			
+		case ($text == 'previous'):
+			$speech = 'Previous selected. I am supposed to read previous something.';
+			$display = $speech;
+			
+			break;
 		
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
 			$speech = 'Goodbye, come again soon.';
