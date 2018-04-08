@@ -1,6 +1,4 @@
 <?php 
-require_once 'Book.php';
-
 $method = $_SERVER['REQUEST_METHOD'];
 
 // Process only when method is POST
@@ -34,8 +32,6 @@ if($method == 'POST'){
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
 			$author = $bookReviewsJson[$num]['author'];
 			$review = $bookReviewsJson[$num]['review'];
-			
-			$book = new Book($num, $title, $filepath, $thumbnail, $bookurl, $author, $review);
 			
 			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
 				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
@@ -108,5 +104,4 @@ else
 {
 	echo "Method not allowed";
 }
-
 ?>
