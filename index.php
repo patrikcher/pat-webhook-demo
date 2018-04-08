@@ -13,8 +13,6 @@ if($method == 'POST'){
 	$bookReviews = file_get_contents('./data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
 	
-	$currNum = 0;
-	
 	// array to store messages
 	$messages=[];
 
@@ -27,7 +25,6 @@ if($method == 'POST'){
 			
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(0, count($bookReviewsJson)-1);
-			$currNum = $num;
 			
 			$title = $bookReviewsJson[$num]['title'];
 			$filepath = $bookReviewsJson[$num]['filepath'];
@@ -66,23 +63,8 @@ if($method == 'POST'){
 	);
 	
 	if ($action == 'General.General-repeat') {
-		if ($currNum = 0) {
-			$speech = 'Would you like me to read a book review?';
-			$display = $speech;
-		}
-		else {
-			$title = $bookReviewsJson[$currNum]['title'];
-			$filepath = $bookReviewsJson[$curNum]['filepath'];
-			$thumbnail = $bookReviewsJson[$currNum]['thumbnail'];
-			$bookurl = $bookReviewsJson[$currNum]['bookurl'];
-			$author = $bookReviewsJson[$currNum]['author'];
-			$review = $bookReviewsJson[$currNum]['review'];
-			
-			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
-				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
-				'Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
-		}
+		$speech = 'Repeat selected. I am supposed to repeat something.';
+		$display = $speech;
 	}
 	
 	// build card for selected book title
