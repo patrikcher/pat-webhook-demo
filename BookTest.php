@@ -5,14 +5,12 @@ $book = new Book('1', 'Ball of Confusion: Puzzles, Problems & Perplexing Posers'
 
 $book2 = new Book('1','2','3','4','5','6','7');
 
+echo "\n";
+echo "Book 1";
 var_dump($book);
-print_r($book);
-var_export($book);
-echo "\n";
 
-var_dump($book2);
-print_r($book2);
-var_export($book2);
 echo "\n";
+echo "Book 2";
+var_dump($book2);
 
 ?>
