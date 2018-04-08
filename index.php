@@ -1,16 +1,10 @@
 <?php 
+require_once 'Book.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
 
 function getBook($num, $bookReviewsJson):Book {
 	$bookObj = new Book();
-	$bookObj->id=$num;
-	$bookObj->title=$bookReviewsJson[$num]['title'];
-	$bookObj->filepath=$bookReviewsJson[$num]['filepath'];
-	$bookObj->thumbnail=$bookReviewsJson[$num]['thumbnail'];
-	$bookObj->bookurl=$bookReviewsJson[$num]['bookurl'];
-	$bookObj->author=$bookReviewsJson[$num]['author'];
-	$bookObj->review=$bookReviewsJson[$num]['review'];
 	
 	return $bookObj;
 }
@@ -39,8 +33,6 @@ if($method == 'POST'){
 			
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(0, count($bookReviewsJson)-1);
-			
-			$book = getBook($num, $bookReviewsJson);
 			
 			$title = $bookReviewsJson[$num]['title'];
 			$filepath = $bookReviewsJson[$num]['filepath'];
