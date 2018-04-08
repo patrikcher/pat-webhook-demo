@@ -15,6 +15,15 @@ if($method == 'POST'){
 	
 	// array to store messages
 	$messages=[];
+	
+	if ($action == 'General.General-previous') {
+		$speech = 'Previous selected. I am supposed to read previous something.';
+		$display = $speech;
+	}
+	else if ($action == 'General.General-next') {
+		$speech = 'Next selected. I am supposed to read next something.';
+		$display = $speech;
+	}
 
 	switch ($text) {
 		case 'hi':
