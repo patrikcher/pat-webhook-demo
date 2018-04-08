@@ -9,7 +9,6 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 
 	$text = $json->result->parameters->text;
-	$resolvedQuery = $json->result->resolvedQuery;
 	
 	$bookReviews = file_get_contents('./data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
@@ -54,11 +53,28 @@ if($method == 'POST'){
 			break;
 	}
 	
-	if($resolvedQuery == 'repeat'){
-		$speech = 'Repeat selected';
-		$display = $speech;
-	}
 	
+	
+	
+	
+	$response = new \stdClass();
+	$response->source = "webhook";
+	
+	sendMessage($speech, $display);
+	printCard($title, $author, $thumbnail, $review, $bookurl);
+	
+	//$response->speech = $speech;
+	//$response->displayText = $display;
+	$response->messages = $messages;
+	$response->contextOut = array();
+	echo json_encode($response);
+}
+else
+{
+	echo "Method not allowed";
+}
+
+function sendMessage($speech, $display) {
 	// push initial messages of selected book title
 	array_push($messages, array(
 			"type"=> "simple_response",
@@ -67,7 +83,9 @@ if($method == 'POST'){
 			"displayText" => $display
 		)
 	);
-	
+}
+
+function printCard($title, $author, $thumbnail, $review, $bookurl) {
 	// build card for selected book title
 	array_push($messages, array(
 			"type"=> "basic_card",
@@ -92,18 +110,5 @@ if($method == 'POST'){
 			]
 		)
 	);
-	
-	$response = new \stdClass();
-	$response->source = "webhook";
-	//$response->speech = $speech;
-	//$response->displayText = $display;
-	$response->messages = $messages;
-	$response->contextOut = array();
-	echo json_encode($response);
 }
-else
-{
-	echo "Method not allowed";
-}
-
 ?>
