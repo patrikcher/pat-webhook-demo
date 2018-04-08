@@ -25,6 +25,20 @@ class Book {
    
    public function getFilepath()   { return $this->filepath;   }
    
+   public function setId()   { $this->id;   }
+   
+   public function setTitle()   { $this->title;   }
+   
+   public function setAuthor()   { $this->author;   }
+   
+   public function setThumbnail()   { $this->thumbnail;   }
+   
+   public function setbookurl()   { $this->bookurl;   }
+   
+   public function setReview()   { $this->review;   }
+   
+   public function setFilepath()   { $this->filepath;   }
+   
    public function setBook($id = '0', $title = '0', $author = '0', $thumbnail = '0', $bookurl = '0', $review = '0', $filepath = '0') {
 	   $this->id;
 	   $this->title;
@@ -33,6 +47,10 @@ class Book {
 	   $this->bookurl;
 	   $this->review;
 	   $this->filepath;
+   }
+   
+   public function __toString() {
+      return sprintf('ID = ' . $this->id . ' ' . 'Title = ' . $this->title . 'Author = ' . $this->author);
    }
 }
 ?>
