@@ -1,6 +1,4 @@
-<?php
-require_once 'Book.php';
-
+<?php 
 $method = $_SERVER['REQUEST_METHOD'];
 
 // Process only when method is POST
@@ -14,7 +12,6 @@ if($method == 'POST'){
 	
 	$bookReviews = file_get_contents('./data/bookreviews.json');
 	$bookReviewsJson = json_decode($bookReviews, true);
-	$book = new Book();
 	
 	// array to store messages
 	$messages=[];
@@ -29,19 +26,17 @@ if($method == 'POST'){
 		case ($text == 'book review' || $text == 'read me a book review' || $text == 'read a book review' || strpos($text, 'sure') !== false || strpos($text, 'yes') !== false || strpos($text, 'sure') !== false):
 			$num = rand(0, count($bookReviewsJson)-1);
 			
-			$book = new Book($num, $bookReviewsJson[$num]['title'], $bookReviewsJson[$num]['author'], $bookReviewsJson[$num]['thumbnail'], $bookReviewsJson[$num]['bookurl'], $bookReviewsJson[$num]['review'], $bookReviewsJson[$num]['filepath']);
-			
-			/* $title = $bookReviewsJson[$num]['title'];
+			$title = $bookReviewsJson[$num]['title'];
 			$filepath = $bookReviewsJson[$num]['filepath'];
 			$thumbnail = $bookReviewsJson[$num]['thumbnail'];
 			$bookurl = $bookReviewsJson[$num]['bookurl'];
 			$author = $bookReviewsJson[$num]['author'];
-			$review = $bookReviewsJson[$num]['review']; */
+			$review = $bookReviewsJson[$num]['review'];
 			
-			$speech = '<speak>' . $book.getTitle() . ' written by ' . $book.getAuthor() . '<break time="2s"/>' . 
-				'<audio src="' . $book.getFilepath() . '"><desc>' . $book.getTitle() . '</desc>I did not manage to get your book review.</audio>' . 
+			$speech = '<speak>' . $title . ' written by ' . $author . '<break time="2s"/>' . 
+				'<audio src="' . $filepath  . '"><desc>' . $title . '</desc>I did not manage to get your book review.</audio>' . 
 				'Would you like me to read another review?</speak>';
-			$display = 'Now reading book review for ' . $book.getTitle() . '. Would you like me to read another review?';
+			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
 			break;
 		
@@ -78,19 +73,19 @@ if($method == 'POST'){
 			"platform"=> "google",
 	
 			// options for cards
-			"title"=> $book.getTitle(),
-			"subtitle"=> $book.getAuthor(),
+			"title"=> $title,
+			"subtitle"=> $author,
 			"image"=> [
-				"url"=> $book.getThumbnail(),
-				"accessibilityText"=> "Thumbnail for " . $book.getTitle()
+				"url"=> $thumbnail,
+				"accessibilityText"=> "Thumbnail for " . $title
 			],
 			//"formattedText"=> 'Text for card',
-			"formattedText"=> $book.getReview(),
+			"formattedText"=> $review,
 			"buttons"=> [
 				[
 					"title"=> "View in NLB Catalogue",
 					"openUrlAction"=> [
-						"url"=> $book.getBookUrl()
+						"url"=> $bookurl
 					]
 				]
 			]
@@ -109,5 +104,4 @@ else
 {
 	echo "Method not allowed";
 }
-
 ?>
