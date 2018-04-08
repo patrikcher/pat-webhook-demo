@@ -53,28 +53,6 @@ if($method == 'POST'){
 			break;
 	}
 	
-	
-	
-	
-	
-	$response = new \stdClass();
-	$response->source = "webhook";
-	//$response->speech = $speech;
-	//$response->displayText = $display;
-	$response->messages = $messages;
-	
-	sendMessage($speech, $display);
-	printCard($title, $author, $thumbnail, $review, $bookurl);
-	
-	$response->contextOut = array();
-	echo json_encode($response);
-}
-else
-{
-	echo "Method not allowed";
-}
-
-function sendMessage($speech, $display) {
 	// push initial messages of selected book title
 	array_push($messages, array(
 			"type"=> "simple_response",
@@ -83,9 +61,7 @@ function sendMessage($speech, $display) {
 			"displayText" => $display
 		)
 	);
-}
-
-function printCard($title, $author, $thumbnail, $review, $bookurl) {
+	
 	// build card for selected book title
 	array_push($messages, array(
 			"type"=> "basic_card",
@@ -110,5 +86,17 @@ function printCard($title, $author, $thumbnail, $review, $bookurl) {
 			]
 		)
 	);
+	
+	$response = new \stdClass();
+	$response->source = "webhook";
+	//$response->speech = $speech;
+	//$response->displayText = $display;
+	$response->messages = $messages;	
+	$response->contextOut = array();
+	echo json_encode($response);
+}
+else
+{
+	echo "Method not allowed";
 }
 ?>
