@@ -394,5 +394,167 @@
 		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781604692341/mc.gif&client=natlibsingapore&upc=&oclc=666223979",
 		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?BRN=14247407",
 		"review": "Don’t always think you need a green thumb to create a beautiful garden in your home. Try your hands at making a terrarium – a miniature garden where small plants are housed in a transparent container, usually a glass jar or plastic bottle, along with some sand, pebbles and decorative ornaments."
+	},
+	{
+		"id": "45",
+		"title": "Moon: Living Abroad in Thailand",
+		"author": "Suzanne Nam",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/MoonLivingAbroadInThailand.mp3",
+		"thumbnail": "https://nlbbot-webhook.herokuapp.com/rsc/BookCoverNotAvailable.png",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/8714451?QRY=CTIBIB<%20IRN(3177359)&QRYTEXT=Moon%20living%20abroad%20in%20Thailand",
+		"review": "If you’ve ever imagined yourself living in Thailand, then this book is for you. Apart from information on visas, finance, employment and healthcare, this book also offers practical advice on how to rent or buy a home. It also helps you locate where the best neighbourhoods to live in are."
+	},
+	{
+		"id": "46",
+		"title": "A Geek in Thailand: Discovering the Land of Golden Buddhas, Pad Thai and Kickboxing",
+		"author": "Jody Houton",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/AGeekInThailand.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780804844482/mc.gif&client=natlibsingapore&upc=&oclc=925518363",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/7364554?QRY=CTIBIB%3C%20IRN(151574751)&QRYTEXT=A%20geek%20in%20Thailand%20%3A%20discovering%20the%20land%20of%20golden%20buddhas%2C%20pad%20Thai%20and%20kickboxing",
+		"review": "This book offers a light-hearted but perceptive look at one of the world’s most-visited countries from the viewpoint of a young foreign resident. Besides chapters on Thai culture, food and entertainment, this guide is also useful for those who wish to move to Thailand on a more permanent basis, as it contains helpful information about successful businesses in Thailand, the Thai working culture and jobs for foreigners."
+	},
+	{
+		"id": "47",
+		"title": "The Myanmar Economy: It’s Past, Present and Prospects",
+		"author": "Konosuke Odaka",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheMyanmarEconomy.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9784431557340/mc.gif&client=natlibsingapore&upc=&oclc=917497580",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/8659307?QRY=CTIBIB<%20IRN(151581398)&QRYTEXT=The%20Myanmar%20economy%20%3A%20its%20past%2C%20present%20and%20prospects",
+		"review": "This book charts the history of Myanmar’s important sectors such as electricity, transport, agriculture and industrialisation. It also details Myanmar’s economic relations with China. Find out the essential ingredients for drawing a roadmap towards sustained growth and a unique welfare state with adequate social capital, indigenous modern manufactures, financial development and closer international ties."
+	},
+	{
+		"id": "48",
+		"title": "Neoliberalizing Spaces in the Philippines : Suburbanization, Transnational Migration, and Dispossession",
+		"author": "Arnisson Andre Ortega",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/NeoliberalizingSpacesInThePhilippines.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781498530514/mc.gif&client=natlibsingapore&upc=40026615152&oclc=952200092",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/8663386?QRY=CTIBIB<%20IRN(203443570)&QRYTEXT=Neoliberalizing%20spaces%20in%20the%20Philippines%20%3A%20suburbanization%2C%20transnational%20migration%2C%20and%20dispossession",
+		"review": "This book examines the housing boom that influenced the construction of urban and suburban spaces in The Philippines. Looking at the gated suburban life, demand from returnee overseas Filipinos, and real estate, the author discusses the geographies of property owners, while also revealing the darker side of the property boom in relation to marginalized residents."
+	},
+	{
+		"id": "49",
+		"title": "China's one belt one road : initiative, challenges, and prospects",
+		"author": "Bal Krishan Sharma and Nivedita Das Kundu",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/ChinaOneBeltOneRoad.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9789385563591/mc.gif&client=natlibsingapore&upc=&oclc=952962009",
+		"bookurl": "https://nlb.overdrive.com/media/2850904",
+		"review": "This book includes research from Chinese and Indian academics examining the essence and implications of China’s ‘One Belt One Road’ initiative. Inter-disciplinary approaches and comparative perspectives help to identify the social & economic development, as well as the political and cultural exchanges resulting from convergence of interests between key nations."
+	},
+	{
+		"id": "50",
+		"title": "The Governance of China",
+		"author": "Xi Jinping",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheGovernanceOfChina.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9787119090573/mc.gif&client=natlibsingapore&upc=&oclc=894348104",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/8709574?QRY=CTIBIB<%20IRN(110317861)&QRYTEXT=The%20governance%20of%20China",
+		"review": "Xi Jinping was elected general secretary of the Communist Party of China and chairman of the Central Military Commission at the 18th Party Congress held in 2012. He succeeded Hu Jintao as leader of the Communist party and was elected president of the People’s Republic of China in March 2013. Gain a better understanding of China through this compilation of Xi Jinping’s speeches, talks, interviews and correspondences from 2012 to 2014 as you delve into his thoughts and views on a broad range of issues."
+	},
+	{
+		"id": "51",
+		"title": "China's Millennials: The Want Generation",
+		"author": "Eric Fish",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/ChinaMillennials.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781442248830/mc.gif&client=natlibsingapore&upc=40025045413&oclc=898158448",
+		"bookurl": "https://nlb.overdrive.com/media/2240905",
+		"review": "Read about the Y generation of China brought up during a period of strong economic growth. This book profiles youth from around the country and offers a glimpse into China’s education system, their workforce and social issues of youth who are actively opposing the status quo. This book is available at the Lee Kong Chian Reference Library, on Level 7."
+	},
+	{
+		"id": "52",
+		"title": "India’s Long Road: The Search for Prosperity",
+		"author": "Vijay Joshi",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/IndiaLongRoad.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780190610135/mc.gif&client=natlibsingapore&upc=&oclc=959592959",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/8725967?QRY=CTIBIB<%20IRN(218451602)&QRYTEXT=India%27s%20long%20road%20%3A%20the%20search%20for%20prosperity",
+		"review": "The foundations of rapid and inclusive economic growth in India are shaky. Economist Vijay Joshi argues that the state, market and private sector must be realigned for India to realise its potential. This book examines all the critical areas and proposes how to do so. This book is available at the Lee Kong Chian Reference Library, on Level 7."
+	},
+	{
+		"id": "53",
+		"title": "Vivek Singh's Indian Festival Feasts",
+		"author": "Vivek Singh",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/VivekSingh.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1472938461/mc.gif&client=natlibsingapore&upc=&oclc=952369219",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/7267311?QRY=CTIBIB%3C%20IRN(211807563)&QRYTEXT=Vivek%20Singh%27s%20Indian%20Festival%20Feasts",
+		"review": "It is said that in India a festival is celebrated every day of the year. This book celebrates the gastronomy of India's festival cuisine. Head chef of London's acclaimed Cinnamon Club Vivek Singh brings his unique touch to traditional festival recipes and gives his insight into the significance of food from a country with a history of diverse religions and cultures."
+	},
+	{
+		"id": "54",
+		"title": "CultureShock! India: A survival guide to customs and etiquette",
+		"author": "Lynelle Seow",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/CultureShock.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9789814561471/mc.gif&client=natlibsingapore&upc=&oclc=966299239",
+		"bookurl": "https://nlb.overdrive.com/media/1077591",
+		"review": "India has more than 4,000 distinct communities and over 300 different spoken languages. Immerse yourself in the rich traditions and values of Indian society with chapters on food, entertainment, leisure and festivals. This is a practical and useful book with personal anecdotes for anyone keen to integrate seamlessly into India’s diverse cultures. Learn practical tips to avoid cultural misunderstandings and find advice to facilitate your move to the country."
+	},
+	{
+		"id": "55",
+		"title": "Bollywood: The films! the songs! the stars!",
+		"author": "S.M.M Ausaja, Kajori Aikat and Amitabh Bachchan",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/Bollywood.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9780241289297/mc.gif&client=natlibsingapore&upc=&oclc=1005288483",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/9948369/226543268,1",
+		"review": "Be enchanted by the glamour and colour of Indian cinema through insightful biographies of iconic Bollywood stars such as Dev Anand, Amitabh Bachchan, Deepika Padukone, and Shahrukh Khan. Take a look at a behind the scenes tour of Hindi cinema’s biggest blockbusters with stunning film stills and plot timelines."
+	},
+	{
+		"id": "56",
+		"title": "Introduction to the Psychology of Ageing for Non-Specialists",
+		"author": "Ian Stuart-Hamilton",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/IntroductionToPsychology.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9781849053631/mc.gif&client=natlibsingapore&upc=&oclc=856647658",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ/7322470?QRY=CTIBIB%3C%20IRN(85725701)&QRYTEXT=Introduction%20to%20the%20psychology%20of%20ageing%20for%20non-specialists",
+		"review": "Whether you provide care for older people, or you’re simply interested in ageing, this book on the psychology of ageing explains the key issues clearly and concisely. Learn about ageing, life expectancy and demographics, and discuss the aspects of ageing that have the most impact on people's lives. From changes in intelligence and personality to mental health and sexuality, the author explains the psychology involved and focuses on the points that have most impact on people's lives."
+	},
+	{
+		"id": "57",
+		"title": "The Quest: Energy, Security, and the Remaking of the Modern World",
+		"author": "Daniel Yergin",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/TheQuest.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=1594202834/mc.gif&client=natlibsingapore&upc=&oclc=707969108",
+		"bookurl": "https://nlb.overdrive.com/media/636416",
+		"review": "The book covers the world history of energy and its effects on policy. It discusses topics on oil, electricity, the computer age, climate change, the new carbon economy, renewable energy and the impact of the globalisation of innovation on future energy supplies. This book tells a story that spans the energies on which our civilization has been built and the new energies that are competing to replace. Learn how energy is an engine of global political and economic change and conflict, and reveal the decisions, technologies, and individuals that are shaping our future."
+	},
+	{
+		"id": "58",
+		"title": "When a Flower Dies",
+		"author": "Josephine Chia",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/WhenAFlowerDies.mp3",
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/9789810963149",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=josephine+chia+when+a+flower+dies&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=josephine+chia+when+a+flower+dies&SORTS=SQL_REL_TITLE",
+		"review": "When a Flower Dies is about love and memory. Pansy Lim, a Peranakan girl who grew up in a coastal village on the east coast of Singapore in the 1950s. She has a love for nature particularly flowers, traits she picked up from her mother and this love is fuelled by her English education in a local convent school which opens her eyes and heart to all things English particularly literature and nature."
+	},
+	{
+		"id": "59",
+		"title": "Still Building",
+		"author": "Haresh Sharma",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/StilLBuilding.mp3",
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/997100495X%20(pbk.)",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/FULL/EXPNOS/BIBENQ/9944535/3752634,1",
+		"review": "This book contains three of Haresh Sharma’s earlier plays, Still Building, Lanterns Never Go Out and More. Lanterns Never Go Out is a coming of age story about a young woman who was in transition between school and working life and trying to deal with family pressures on how her future ought to be."
+	},
+	{
+		"id": "60",
+		"title": "Little Pioneers",
+		"author": "Bessie Chua",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/LittlePioneers.mp3",
+		"thumbnail": "http://eservice.nlb.gov.sg/bookcoverwrapper/cover/9813065958%20(pbk.)",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=bessie+chua+little+pioneers&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=bessie+chua+little+pioneers&SORTS=SQL_REL_TITLE",
+		"review": "This book, Little Pioneers is a fictional portrayal of a young Chinese girl and her relationships with her family, set in the early days of Singapore’s Chinatown. Little Pioneers also weaves in the special relationship between Chun, the main character, and her grandmother, who came to Singapore to help Chun’s mother but was duty-bound to leave to check on her family in plague-ravaged China. It paints a lively and vivid picture of the lives and streets of Chinatown in 1897.  The characters depict the complicated and difficult life faced by the early pioneers in Singapore. Little Pioneers is available at the Singapore and Southeast Asia Literature Collection at Level 8 of the National Library"
+	},
+	{
+		"id": "61",
+		"title": "Rice Wine & Dancing Girls",
+		"author": "Wong Seng Chow",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/RiceWineDancingGirls.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9810810830/mc.gif&client=natlibsingapore&upc=&oclc=243732698",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=rice+wine+and+dancing+girls&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=rice+wine+and+dancing+girls&SORTS=SQL_REL_TITLE",
+		"review": "This book brings you back to Singapore and Malaya in the 1950s and 1960s which was in the midst of the post-war cinema boom. Wong Seng Chow pieced together his late father's adventures while making a living after the war. The story tells us how he became a cinema manager for Cathay and got caught up in the adventures of a bygone era travelling throughout Malaya and met many colourful characters. An interesting peek into the multi-cultural and multi-lingual setting that made up cinema, which in itself was a microcosm of Malayan society and of stories his father never told him. You can find this book at Level 8 of the National Library."
+	},
+	{
+		"id": "62",
+		"title": "Union : 15 years of Drunken Boat, 50 years of writing from Singapore",
+		"author": "Alvin Pang and Ravi Shankar",
+		"filepath": "https://nlbbot-webhook.herokuapp.com/rsc/union.mp3",
+		"thumbnail": "http://www.syndetics.com/index.aspx?isbn=9789810964894/mc.gif&client=natlibsingapore&upc=&oclc=918967844",
+		"bookurl": "http://catalogue.nlb.gov.sg/cgi-bin/spydus.exe/ENQ/EXPNOS/BIBENQ?ENTRY=Union+%3A+15+years+of+Drunken+Boat%2C+50+years+of+writing+from+Singapore&ENTRY_NAME=BS&ENTRY_TYPE=K&GQ=Union+%3A+15+years+of+Drunken+Boat%2C+50+years+of+writing+from+Singapore&SORTS=SQL_REL_TITLE",
+		"review": "This anthology was jointly published by Singapore's Ethos Books and Drunken Boat Media celebrating 50 years of writing in Singapore and 15 years of the United States-based literary journal, Drunken Boat. The poems, short stories and essays in this volume showcase an inter-connectedness of disparate voices across distances through selected works of Singapore literature and literary pieces published in Drunken Boat as it traces the development of two dynamic communities: the global city-state of Singapore as it marked its 50th year of Independence in 2015 and the popular literary journal, Drunken Boat, which celebrated 15 years of groundbreaking and inclusive writing in the same year."
 	}
 ]

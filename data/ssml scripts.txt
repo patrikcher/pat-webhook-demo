@@ -387,3 +387,220 @@ Terrarium Craft: Create 50 magical, miniature worlds
 <s>Check out this book for 50 step-by-step terrarium projects that are easy to follow or simply create your own in any way you fancy!</s>
 <break time="1s"/>
 <s>Terrarium Craft: Create 50 magical, miniature worlds is written by Amy Bryant Aiello and Kate Bryant, and can be found at the library under this call number English<say-as interpret-as="characters"> 635.9824 BRY</say-as>.</s>
+
+
+
+Moon: Living Abroad in Thailand
+<s>If you’ve ever imagined yourself living in Thailand, then this book is for you.</s><s>Apart from information on visas, finance, employment and healthcare, this book also offers practical advice on how to rent or buy a home.</s><s>It also helps you locate where the best neighbourhoods to live in are.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 11.</s>
+<break time="1s"/>
+<s>More information on living and in Thailand can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg</s>
+
+
+
+A Geek in Thailand: Discovering the Land of Golden Buddhas, Pad Thai and Kickboxing
+<s>This book offers a light-hearted but perceptive look at one of the world’s most-visited countries from the viewpoint of a young foreign resident.</s><s>Besides chapters on Thai culture, food and entertainment, this guide is also useful for those who wish to move to Thailand on a more permanent basis, as it contains helpful information about successful businesses in Thailand, the Thai working culture and jobs for foreigners.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 11.</s>
+<break time="1s"/>
+<s>A digital copy is also available online at NLB’s Overdrive database.</s>
+<break time="1s"/>
+<s>More information on living and working in Thailand can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+The Myanmar Economy: It’s Past, Present and Prospects
+<s>This book charts the history of Myanmar’s important sectors such as electricity, transport, agriculture and industrialisation.</s><s>It also details Myanmar’s economic relations with China.</s>
+<break time="1s"/>
+<s>Find out the essential ingredients for drawing a roadmap towards sustained growth and a unique welfare state with adequate social capital, indigenous modern manufactures, financial development and closer international ties.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 11.</s>
+<break time="1s"/>
+<s>More information on Myanmar can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+Neoliberalizing Spaces in the Philippines : Suburbanization, Transnational Migration, and Dispossession
+<s>This book examines the housing boom that influenced the construction of urban and suburban spaces in The Philippines.</s><s>Looking at the gated suburban life, demand from returnee overseas Filipinos, and real estate, the author discusses the geographies of property owners, while also revealing the darker side of the property boom in relation to marginalized residents.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 11.</s>
+<break time="1s"/>
+<s>More information on living in the Philippines can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+The Secret Atlas of Greater Kuala Lumpur
+<s>Take a closer look at Greater KL through the lens of Big Data.</s><s>View this city from a different perspective and gain insights into the underlying currents that move property markets, as well as the people it hosts.</s>
+<break time="1s"/>
+<s>Maps, photographs, time series and radial histograms tell a compelling story of this city, giving you a deeper look at the inner workings of its people.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 11.</s>
+<break time="1s"/>
+<s>More information on living in the Philippines can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+China's one belt one road : initiative, challenges, and prospects
+<s>This book includes research from Chinese and Indian academics examining the essence and implications of China’s ‘One Belt One Road’ initiative.</s><s>Inter-disciplinary approaches and comparative perspectives help to identify the social and economic development, as well as the political and cultural exchanges resulting from convergence of interests between key nations.</s>
+<break time="1s"/>
+<s>Examine the significance of reviving the ancient Silk Road connectivity extending across the world map from both China’s and India’s perspectives.</s><s>Find out the key opportunities, concerns and challenges ahead.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 7.</s>
+<break time="1s"/>
+<s>A digital copy is also available online at NLB’s Overdrive database.</s>
+<break time="1s"/>
+<s>More information on China’s Belt and Road Initiative can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+The Governance of China
+<s>Xi Jinping was elected general secretary of the Communist Party of China and chairman of the Central Military Commission at the 18th Party Congress held in 2012.</s><s>He succeeded Hu Jintao as leader of the Communist party and was elected president of the People’s Republic of China in March 2013.</s><s>Gain a better understanding of China through this compilation of Xi Jinping’s speeches, talks, interviews and correspondences from 2012 to 2014 as you delve into his thoughts and views on a broad range of issues.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 8.</s>
+<break time="1s"/>
+<s>More information on China’s influential young can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+China's Millennials: The Want Generation
+<s>Read about the Y generation of China brought up during a period of strong economic growth.</s><s>This book profiles youth from around the country and offers a glimpse into China’s education system, their workforce and social issues of youth who are actively opposing the status quo.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 7.</s>
+<break time="1s"/>
+<s>A digital copy is also available online at NLB’s Overdrive database.</s>
+<break time="1s"/>
+<s>More information on China’s influential young can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+India’s Long Road: The Search for Prosperity
+<s>The foundations of rapid and inclusive economic growth in India are shaky.</s><s>Economist Vijay Joshi argues that the state, market and private sector must be realigned for India to realise its potential.</s><s>This book examines all the critical areas and proposes how to do so.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 7.</s>
+<break time="1s"/>
+<s>More information on Indian food and culture can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+Vivek Singh's Indian Festival Feasts
+<s>It is said that in India a festival is celebrated every day of the year.</s><s>This book celebrates the gastronomy of India's festival cuisine.</s>
+<break time="1s"/>
+<s>Head chef of London's acclaimed Cinnamon Club Vivek Singh brings his unique touch to traditional festival recipes and gives his insight into the significance of food from a country with a history of diverse religions and cultures.</s>
+<break time="1s"/>
+<s>Together with brand new recipes, the history and culture surrounding each festival will be explored in colourful detail. Accompanying photographs bring the beauty and vibrancy of these incredible celebrations to life.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 7.</s>
+<break time="1s"/>
+<s>More information on Indian food and culture can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+CultureShock! India: A survival guide to customs and etiquette
+<s>India has more than 4,000 distinct communities and over 300 different spoken languages.</s><s>Immerse yourself in the rich traditions and values of Indian society with chapters on food, entertainment, leisure and festivals.</s>
+<break time="1s"/>
+<s>This is a practical and useful book with personal anecdotes for anyone keen to integrate seamlessly into India’s diverse cultures.</s><s>Learn practical tips to avoid cultural misunderstandings and find advice to facilitate your move to the country.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 8.</s>
+<break time="1s"/>
+<s>A digital copy is also available online at NLB’s Overdrive database.</s>
+<break time="1s"/>
+<s>More information on living in India can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+Bollywood: The films! the songs! the stars!
+<s>Be enchanted by the glamour and colour of Indian cinema through insightful biographies of iconic Bollywood stars such as Dev Anand, Amitabh Bachchan, Deepika Padukone, and Shahrukh Khan.</s><s>Take a look at a behind the scenes tour of Hindi cinema’s biggest blockbusters with stunning film stills and plot timelines.</s>
+<break time="1s"/>
+<s>See how these charming movies have captured the hearts of not just of Indians but of people the world over.</s><s>This book pays a truly glittering homage to Bollywood!</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 8.</s>
+<break time="1s"/>
+<s>More information on entertainment in India can be found at the National Library’s Eye on Asia website.</s><s>Please visit www.eyeonasia.sg.</s>
+
+
+
+What is the Future?
+<s>This book explores various depictions of what our future would be like, examining different visualisations from think-tanks, to philosophy, literature, and mass media.</s><s>Through case studies of 3D printing, global climate change and the changing forms of mobilities within cities, the book also looks at the probable futures that might develop.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 7.</s>
+<break time="1s"/>
+<s>A digital copy is also available online at NLB’s Overdrive database.</s>
+<break time="1s"/>
+<s>More information on Navigating a Complex World can be found at the National Library’s Resource Guides website.</s><s>Please visit www.nlb.gov.sg/resourceguides.</s>
+
+
+
+Introduction to the Psychology of Ageing for Non-Specialists
+<s>Whether you provide care for older people, or you’re simply interested in ageing, this book on the psychology of ageing explains the key issues clearly and concisely.</s>
+<break time="1s"/>
+<s>Learn about ageing, life expectancy and demographics, and discuss the aspects of ageing that have the most impact on people's lives.</s><s>From changes in intelligence and personality to mental health and sexuality, the author explains the psychology involved and focuses on the points that have most impact on people's lives.</s>
+<break time="1s"/>
+<s>This book is a key resource for anyone interested in what happens as we age, as well as social workers, care workers, nurses and medical professionals.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 8.</s>
+<break time="1s"/>
+<s>A digital copy is also available online at NLB’s Overdrive database.</s>
+<break time="1s"/>
+<s>More information on ageing and longevity can be found at the National Library’s Resource Guides website.</s><s>Please visit www.nlb.gov.sg/resourceguides.</s>
+
+
+
+The Quest: Energy, Security, and the Remaking of the Modern World
+<s>The book covers the world history of energy and its effects on policy.</s><s>It discusses topics on oil, electricity, the computer age, climate change, the new carbon economy, renewable energy and the impact of the globalisation of innovation on future energy supplies.</s>
+<break time="1s"/>
+<s>This book tells a story that spans the energies on which our civilization has been built and the new energies that are competing to replace.</s><s>Learn how energy is an engine of global political and economic change and conflict, and reveal the decisions, technologies, and individuals that are shaping our future.</s>
+<break time="1s"/>
+<s>This book is available at the Lee Kong Chian Reference Library, on Level 7.</s>
+<break time="1s"/>
+<s>A digital copy is also available online at NLB’s Overdrive database.</s>
+<break time="1s"/>
+<s>More information on energy and climate change can be found at the National Library’s Resource Guides website.</s><s>Please visit www.nlb.gov.sg/resourceguides.</s>
+
+
+
+When a Flower Dies
+<s>When a Flower Dies is about love and memory.</s><s>Pansy Lim, a Peranakan girl who grew up in a coastal village on the east coast of Singapore in the 1950s.</s><s>She has a love for nature particularly flowers, traits she picked up from her mother and this love is fuelled by her English education in a local convent school which opens her eyes and heart to all things English particularly literature and nature.</s>
+<break time="1s"/>
+<s>Written in a simple yet engaging and vivid manner, the reader is able to relive and imagine the scenes in the story – from the coastal come-pongs and come-pong life in colonial Singapore to the spring-time beauty of an English countryside.</s>
+<break time="1s"/>
+<s>When a Flower Dies by Josephine Chia can be found at Level 8 of the National Library under this call number English 307.095957 <say-as interpret-as="characters">CHI</say-as>.</s>
+
+
+
+
+Still Building
+<s>This book contains three of Haresh Sharma’s earlier plays, Still Building, Lanterns Never Go Out and More.</s>
+<break time="1s"/>
+<s>Lanterns Never Go Out is a coming of age story about a young woman who was in transition between school and working life and trying to deal with family pressures on how her future ought to be.</s>
+<break time="1s"/>
+<s>Still Building which won the Singapore Literature Prize Merit in 1993 has 2 parallel stories – two sisters and their good friend dealing with their relationships and three colleagues trapped under a collapsed building.</s><s>These stories deal with the idea of change and moving on from our past, however difficult that may be.</s>
+<break time="1s"/>
+<s>More looks at Singapore’s obsession with materialism and status and is a satirical take on an achievement-obsessed society.</s>
+<break time="1s"/>
+<s>Haresh Sharma, Resident Playwright at The Necessary Stage, is a prolific playwright with over 100 plays under his belt.</s><s>He received the Cultural Medallion in 2015.</s>
+<break time="1s"/>
+<s>Still Building can be found along the bookwall at Level 8 of the National Library.</s>
+
+
+
+Little Pioneers
+<s>This book, Little Pioneers is a fictional portrayal of a young Chinese girl and her relationships with her family, set in the early days of Singapore’s Chinatown.</s>
+<break time="1s"/>
+<s>Little Pioneers also weaves in the special relationship between Choon, the main character, and her grandmother, who came to Singapore to help Choon’s mother but was duty-bound to leave to check on her family in plague-ravaged China.</s><s>It paints a lively and vivid picture of the lives and streets of Chinatown in 1897.</s><s>The characters depict the complicated and difficult life faced by the early pioneers in Singapore.</s>
+<break time="1s"/>
+<s>Little Pioneers is available at the Singapore and Southeast Asia Literature Collection at Level 8 of the National Library.</s>
+
+
+
+Rice Wine & Dancing Girls
+<s>This book brings you back to Singapore and Malaya in the 1950s and 1960s which was in the midst of the post-war cinema boom.</s><s>Wong Seng Chow pieced together his late father's adventures while making a living after the war.</s><s>The story tells us how he became a cinema manager for Cathay and got caught up in the adventures of a bygone era travelling throughout Malaya and met many colourful characters.</s><s>An interesting peek into the multi-cultural and multi-lingual setting that made up cinema, which in itself was a microcosm of Malayan society and of stories his father never told him.</s>
+<break time="1s"/>
+<s>You can find this book at Level 8 of the National Library.</s>
+
+
+
+Union : 15 years of Drunken Boat, 50 years of writing from Singapore
+<s>This anthology was jointly published by Singapore's Ethos Books and Drunken Boat Media celebrating 50 years of writing in Singapore and 15 years of the United States-based literary journal, Drunken Boat.</s><s>The poems, short stories and essays in this volume showcase an inter-connectedness of disparate voices across distances through selected works of Singapore literature and literary pieces published in Drunken Boat as it traces the development of two dynamic communities: the global city-state of Singapore as it marked its 50th year of Independence in 2015 and the popular literary journal, Drunken Boat, which celebrated 15 years of groundbreaking and inclusive writing in the same year.</s>
+<break time="1s"/>
+<s>You can find this anthology at Level 8 of National Library at this call number English <say-as interpret-as="characters">R</say-as>SING <say-as interpret-as="characters">821 UNI</say-as>.</s>
