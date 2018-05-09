@@ -106,6 +106,7 @@ if($method == 'POST'){
 							]
 						]
 					]
+				]
 			];
 			
 			break;
