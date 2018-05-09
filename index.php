@@ -89,22 +89,23 @@ if($method == 'POST'){
 	$response = new \stdClass();
 	
 	$response = [
-		"speech" => $speech,
+		"speech" => "speech",
 		"data" => [
 			"google" => [
 				"expectUserResponse" => true,
 				"richResponse"=>[
 				"items" => [
-					[
-						"simpleResponse" => [
-							"textToSpeech" => $speech
-							"displayText" => $display
+						[
+							"simpleResponse" => [
+								"textToSpeech" => "text to speech"
+								"displayText" => "display text"
+							]
 						]
 					]
 				]
 			]
 		]
-	]];
+	];
 	
 //	$response->source = "webhook";
 	//$response->speech = $speech;
