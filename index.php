@@ -100,34 +100,6 @@ if($method == 'POST'){
 							"textToSpeech" => $speech
 							"displayText" => $display
 						]
-					],
-					[
-						"basicCard" => [
-							"title" => $title,
-							"subtitle" => $author,
-							"image" => [
-								"url" => $thumbnail,
-								"accessibilityText" => "Thumbnail for " . $title
-							],
-							//"formattedText"=> 'Text for card',
-							"formattedText" => $review,
-							"buttons" => [
-								[
-									"title" => "View in NLB Catalogue",
-									"openUrlAction" => [
-										"url" => $bookurl
-									]
-								]
-							]
-						]
-					]
-				],
-				"suggestions" => [
-					[
-						"title" => "Sure"
-					],
-					[
-						"title" => "No"
 					]
 				]
 			]
