@@ -120,6 +120,16 @@ if($method == 'POST'){
 									]
 								]
 							]
+						],
+						[
+							"suggestions" => [
+								[
+									"title" => "Sure"
+								],
+								[
+									"title" => "No"
+								]
+							]
 						]
 				]
 			]
