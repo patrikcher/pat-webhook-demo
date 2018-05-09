@@ -5,7 +5,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
 	
-	$json = json_decode($requestBody);
+	$json = json_decode($requestBody, true);
 
 	$text = $json->result->parameters->text;
 	
@@ -14,6 +14,7 @@ if($method == 'POST'){
 	
 	// array to store messages
 	$messages=[];
+	$response = new \stdClass();
 
 	switch ($text) {
 		case 'hi':
@@ -37,11 +38,76 @@ if($method == 'POST'){
 				'Would you like me to read another review?</speak>';
 			$display = 'Now reading book review for ' . $title . '. Would you like me to read another review?';
 			
+			$response = [
+				"speech" => $speech,
+				"data" => [
+					"google" => [
+						"expectUserResponse" => true,
+						"richResponse"=>[
+							"items" => [
+									[
+										"simpleResponse" => [
+											"textToSpeech" => $speech,
+											"displayText" => $display
+										]
+									],
+									[
+										"basicCard" => [
+											"title" => $title,
+											"subtitle" => $author,
+											"image" => [
+												"url" => $thumbnail,
+												"accessibilityText" => "Thumbnail for " . $title
+											],
+											"formattedText" => $review,
+											"buttons" => [
+												[
+													"title" => "View in NLB Catalogue",
+													"openUrlAction" => [
+														"url" => $bookurl
+													]
+												]
+											]
+										]
+									]
+								],
+								"suggestions" => [
+									[
+										"title" => "Yes"
+									],
+									[
+										"title" => "No"
+									]
+								]
+						]
+					]
+				]
+			];
+			
 			break;
 		
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
 			$speech = 'Goodbye, come again soon.';
 			$display = $speech;
+			
+			$response = [
+				"speech" => $speech,
+				"data" => [
+					"google" => [
+						"expectUserResponse" => true,
+						"richResponse"=>[
+							"items" => [
+									[
+										"simpleResponse" => [
+											"textToSpeech" => $speech,
+											"displayText" => $display
+										]
+									]
+							]
+						]
+					]
+				]
+			];
 			
 			break;
 			
@@ -49,60 +115,32 @@ if($method == 'POST'){
 			$speech = 'Sorry, I didnt get that.';
 			$display = $speech;
 			
+			$response = [
+				"speech" => $speech,
+				"data" => [
+					"google" => [
+						"expectUserResponse" => true,
+						"richResponse"=>[
+							"items" => [
+									[
+										"simpleResponse" => [
+											"textToSpeech" => $speech,
+											"displayText" => $display
+										]
+									]
+							]
+						]
+					]
+				]
+			];
+			
 			break;
 	}
 	
-	$response = new \stdClass();
-	$response = [
-		"speech" => $speech,
-		"data" => [
-			"google" => [
-				"expectUserResponse" => true,
-				"richResponse"=>[
-					"items" => [
-							[
-								"simpleResponse" => [
-									"textToSpeech" => $speech,
-									"displayText" => $display
-								]
-							],
-							[
-								"basicCard" => [
-									"title" => $title,
-									"subtitle" => $author,
-									"image" => [
-										"url" => $thumbnail,
-										"accessibilityText" => "Thumbnail for " . $title
-									],
-									"formattedText" => $review,
-									"buttons" => [
-										[
-											"title" => "View in NLB Catalogue",
-											"openUrlAction" => [
-												"url" => $bookurl
-											]
-										]
-									]
-								]
-							]
-						],
-						"suggestions" => [
-							[
-								"title" => "Yes"
-							],
-							[
-								"title" => "No"
-							]
-						]
-				]
-			]
-		]
-	];
-	
 	echo json_encode($response);
 	
-	if (isset($update["result"]["action"])) {
-		processMessage($update);
+	if (isset($json["result"]["action"])) {
+		processMessage($json);
 	}
 }
 else
