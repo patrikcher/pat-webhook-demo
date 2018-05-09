@@ -90,7 +90,7 @@ if($method == 'POST'){
 			]
 		)
 	);
-	
+	/*
 	array_push($messages, array(
 			"type"=> "suggestion_chip"
 			"platform"=> "google"
@@ -102,6 +102,7 @@ if($method == 'POST'){
 			]
 		)
 	);
+	*/
 	
 	$response = new \stdClass();
 	$response->source = "webhook";
