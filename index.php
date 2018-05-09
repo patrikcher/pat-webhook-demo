@@ -51,25 +51,13 @@ if($method == 'POST'){
 			
 			break;
 	}
-	
+/*	
 	// push initial messages of selected book title
 	array_push($messages, array(
 			"type" => "simple_response",
 			"platform" => "google",
 			"textToSpeech" => $speech,
 			"displayText" => $display
-		)
-	);
-	
-	array_push($messages, array(
-			"type" => "suggestion_chip",
-			"platform" => "google",
-			"suggestions" => [
-				[
-					"title" => "Sure",
-					"title" => "No"
-				]
-			]
 		)
 	);
 	
@@ -97,13 +85,60 @@ if($method == 'POST'){
 			]
 		)
 	);
-	
+*/	
 	$response = new \stdClass();
-	$response->source = "webhook";
+	
+	$response = [
+		"speech" => $speech,
+		"data" => [
+			"google" => [
+				"expectUserResponse" => true,
+				"richResponse"=>[
+				"items" => [
+					[
+						"simpleResponse" => [
+							"textToSpeech" => $speech
+							"displayText" => $display
+						]
+					],
+					[
+						"basicCard" => [
+							"title" => $title,
+							"subtitle" => $author,
+							"image" => [
+								"url" => $thumbnail,
+								"accessibilityText" => "Thumbnail for " . $title
+							],
+							//"formattedText"=> 'Text for card',
+							"formattedText" => $review,
+							"buttons" => [
+								[
+									"title" => "View in NLB Catalogue",
+									"openUrlAction" => [
+										"url" => $bookurl
+									]
+								]
+							]
+						]
+					]
+				],
+				"suggestions" => [
+					[
+						"title" => "Sure"
+					],
+					[
+						"title" => "No"
+					]
+				]
+			]
+		]
+	];
+	
+//	$response->source = "webhook";
 	//$response->speech = $speech;
 	//$response->displayText = $display;
-	$response->messages = $messages;
-	$response->contextOut = array();
+//	$response->messages = $messages;
+//	$response->contextOut = array();
 	echo json_encode($response);
 }
 else
