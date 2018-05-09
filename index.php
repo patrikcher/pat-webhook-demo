@@ -73,7 +73,7 @@ if($method == 'POST'){
 								],
 								"suggestions" => [
 									[
-										"title" => "Yes"
+										"title" => "Sure"
 									],
 									[
 										"title" => "No"
@@ -89,6 +89,24 @@ if($method == 'POST'){
 		case ($text == 'bye' || $text == 'no' || $text == 'pass'):
 			$speech = 'Goodbye, come again soon.';
 			$display = $speech;
+			
+			$response = [
+				"speech" => $speech,
+				"data" => [
+					"google" => [
+						"expectUserResponse" => false,
+						"richResponse"=>[
+							"items" => [
+								[
+									"simpleResponse" => [
+										"textToSpeech" => $speech,
+										"displayText" => $display
+									]
+								]
+							]
+						]
+					]
+			];
 			
 			break;
 			
