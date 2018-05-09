@@ -61,6 +61,18 @@ if($method == 'POST'){
 		)
 	);
 	
+	array_push($messages, array(
+			"type" => "suggestion_chip",
+			"platform" => "google",
+			"suggestions" => [
+				[
+					"title" => "Sure",
+					"title" => "No"
+				]
+			]
+		)
+	);
+	
 	// build card for selected book title
 	array_push($messages, array(
 			"type" => "basic_card",
@@ -81,18 +93,6 @@ if($method == 'POST'){
 					"openUrlAction" => [
 						"url" => $bookurl
 					]
-				]
-			]
-		)
-	);
-	
-	array_push($messages, array(
-			"type" => "suggestion_chip",
-			"platform" => "google",
-			"suggestions" => [
-				[
-					"title" => "Sure",
-					"title" => "No"
 				]
 			]
 		)
