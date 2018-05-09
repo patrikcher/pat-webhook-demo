@@ -5,7 +5,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
 	
-	$json = json_decode($requestBody, true);
+	$json = json_decode($requestBody);
 
 	$text = $json->result->parameters->text;
 	
@@ -138,10 +138,6 @@ if($method == 'POST'){
 	}
 	
 	echo json_encode($response);
-	
-	if (isset($json["result"]["action"])) {
-		processMessage($json);
-	}
 }
 else
 {
