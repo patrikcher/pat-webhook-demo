@@ -90,49 +90,11 @@ if($method == 'POST'){
 			$speech = 'Goodbye, come again soon.';
 			$display = $speech;
 			
-			$response = [
-				"speech" => $speech,
-				"data" => [
-					"google" => [
-						"expectUserResponse" => true,
-						"richResponse"=>[
-							"items" => [
-									[
-										"simpleResponse" => [
-											"textToSpeech" => $speech,
-											"displayText" => $display
-										]
-									]
-							]
-						]
-					]
-				]
-			];
-			
 			break;
 			
 		default:
 			$speech = 'Sorry, I didnt get that.';
 			$display = $speech;
-			
-			$response = [
-				"speech" => $speech,
-				"data" => [
-					"google" => [
-						"expectUserResponse" => true,
-						"richResponse"=>[
-							"items" => [
-									[
-										"simpleResponse" => [
-											"textToSpeech" => $speech,
-											"displayText" => $display
-										]
-									]
-							]
-						]
-					]
-				]
-			];
 			
 			break;
 	}
