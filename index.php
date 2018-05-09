@@ -89,7 +89,7 @@ if($method == 'POST'){
 	$response = new \stdClass();
 	
 	$response = [
-		"speech" => "speech",
+		"speech" => $speech,
 		"data" => [
 			"google" => [
 				"expectUserResponse" => true,
@@ -97,8 +97,8 @@ if($method == 'POST'){
 					"items" => [
 							[
 								"simpleResponse" => [
-									"textToSpeech" => "text to speech",
-									"displayText" => "display text"
+									"textToSpeech" => $speech,
+									"displayText" => $display
 								]
 							]
 						]
