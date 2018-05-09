@@ -94,14 +94,14 @@ if($method == 'POST'){
 			"google" => [
 				"expectUserResponse" => true,
 				"richResponse"=>[
-				"items" => [
-						[
-							"simpleResponse" => [
-								"textToSpeech" => "text to speech"
-								"displayText" => "display text"
+					"items" => [
+							[
+								"simpleResponse" => [
+									"textToSpeech" => "text to speech",
+									"displayText" => "display text"
+								]
 							]
 						]
-					]
 				]
 			]
 		]
