@@ -63,11 +63,6 @@ if($method == 'POST'){
 		)
 	);
 	
-	if ($action == 'General.General-repeat') {
-		$speech = 'Repeat was selected. I am going to repeat here.';
-		$display = $speech;
-	}
-	
 	// build card for selected book title
 	array_push($messages, array(
 			"type"=> "basic_card",
