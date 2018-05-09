@@ -54,37 +54,32 @@ if($method == 'POST'){
 	
 	// push initial messages of selected book title
 	array_push($messages, array(
-			"type"=> "simple_response",
+			"type" => "simple_response",
 			"platform" => "google",
 			"textToSpeech" => $speech,
 			"displayText" => $display
 		)
 	);
 	
-	if ($action == 'General.General-repeat') {
-		$speech = 'Repeat selected. I am supposed to repeat something.';
-		$display = $speech;
-	}
-	
 	// build card for selected book title
 	array_push($messages, array(
-			"type"=> "basic_card",
-			"platform"=> "google",
+			"type" => "basic_card",
+			"platform" => "google",
 	
 			// options for cards
-			"title"=> $title,
-			"subtitle"=> $author,
-			"image"=> [
-				"url"=> $thumbnail,
-				"accessibilityText"=> "Thumbnail for " . $title
+			"title" => $title,
+			"subtitle" => $author,
+			"image" => [
+				"url" => $thumbnail,
+				"accessibilityText" => "Thumbnail for " . $title
 			],
 			//"formattedText"=> 'Text for card',
-			"formattedText"=> $review,
-			"buttons"=> [
+			"formattedText" => $review,
+			"buttons" => [
 				[
-					"title"=> "View in NLB Catalogue",
-					"openUrlAction"=> [
-						"url"=> $bookurl
+					"title" => "View in NLB Catalogue",
+					"openUrlAction" => [
+						"url" => $bookurl
 					]
 				]
 			]
@@ -92,9 +87,14 @@ if($method == 'POST'){
 	);
 	
 	array_push($messages, array(
-			"type"=> "simple_response",
-			"platform"=> "google",
-			"textToSpeech"=> "Here is speech and additional msg for card"
+			"type" => "suggestion_chip",
+			"platform" => "google",
+			"suggestions" => [
+				[
+					"title" => "Sure",
+					"title" => "No"
+				]
+			]
 		)
 	);
 	
