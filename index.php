@@ -91,6 +91,18 @@ if($method == 'POST'){
 		)
 	);
 	
+	array_push($messages, array(
+			"type"=> "suggestion_chip"
+			"platform"=> "google"
+			
+			"suggestions"=> [
+				[
+					"title"=> "Sure"
+				]
+			]
+		)
+	);
+	
 	$response = new \stdClass();
 	$response->source = "webhook";
 	//$response->speech = $speech;
