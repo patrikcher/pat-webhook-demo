@@ -104,7 +104,7 @@ if($method == 'POST'){
 				]
 			]
 		]
-	];
+	]];
 	
 //	$response->source = "webhook";
 	//$response->speech = $speech;
