@@ -115,6 +115,25 @@ if($method == 'POST'){
 			$speech = 'Sorry, I didnt get that.';
 			$display = $speech;
 			
+			$response = [
+				"speech" => $speech,
+				"data" => [
+					"google" => [
+						"expectUserResponse" => false,
+						"richResponse"=>[
+							"items" => [
+								[
+									"simpleResponse" => [
+										"textToSpeech" => $speech,
+										"displayText" => $display
+									]
+								]
+							]
+						]
+					]
+				]
+			];
+			
 			break;
 	}
 	
