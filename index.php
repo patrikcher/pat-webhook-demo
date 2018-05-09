@@ -100,6 +100,10 @@ if($method == 'POST'){
 	];
 	
 	echo json_encode($response);
+	
+	if (isset($update["result"]["action"])) {
+		processMessage($update);
+	}
 }
 else
 {
